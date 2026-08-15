@@ -1,0 +1,268 @@
+# ⚙️ Research Taxonomy & Discovery Config
+#
+# This is the ONLY file you need to adapt for your own research topic.
+# Edit categories/subcategories + discovery queries, then re-run the pipeline.
+#
+# Pipeline:  config/taxonomy.yaml → papers.yaml → validate → README → reports
+
+# ── Topic ────────────────────────────────────────────────────────────────────
+topic:
+  name: "Bayesian Statistics"
+  short: "bayesian-statistics"
+  description: "Bayesian inference, computation, prior modeling, model selection, hierarchical and nonparametric Bayes, Bayesian deep learning, and applications."
+  openalex_mailto: "research@tobias-weiss-ai-xr.de"
+
+# ── Taxonomy ─────────────────────────────────────────────────────────────────
+taxonomy:
+  categories:
+    - id: inference
+      display: "Inference & Posterior Estimation"
+    - id: computation
+      display: "Computational Methods"
+    - id: priors
+      display: "Prior Specification & Elicitation"
+    - id: model-selection
+      display: "Model Selection & Averaging"
+    - id: hierarchical
+      display: "Hierarchical & Multilevel Models"
+    - id: nonparametric
+      display: "Bayesian Nonparametrics"
+    - id: deep-bayesian
+      display: "Bayesian Deep Learning"
+    - id: applications
+      display: "Applications"
+    - id: survey
+      display: "Surveys & Tutorials"
+
+  subcategories:
+    - id: method
+      display: "Method"
+    - id: theory
+      display: "Theory"
+    - id: application
+      display: "Application"
+    - id: evaluation
+      display: "Evaluation"
+    - id: development
+      display: "Development"
+    - id: systems
+      display: "Systems"
+    - id: survey
+      display: "Survey"
+    - id: experiment
+      display: "Experiment"
+
+# ── Discovery: arXiv queries (fetch_new_papers.py) ───────────────────────────
+arxiv_queries:
+  - query: 'cat:stat.ML AND abs:"Bayesian"'
+    category: inference
+    subcategory_hint: method
+  - query: 'cat:stat.CO AND abs:"Bayesian"'
+    category: computation
+    subcategory_hint: development
+  - query: 'cat:stat.TH AND abs:"Bayesian"'
+    category: inference
+    subcategory_hint: theory
+  - query: 'cat:cs.LG AND abs:"Bayesian"'
+    category: deep-bayesian
+    subcategory_hint: method
+  - query: 'cat:math.ST AND abs:"Bayesian"'
+    category: inference
+    subcategory_hint: theory
+  - query: 'abs:"Markov chain Monte Carlo"'
+    category: computation
+    subcategory_hint: method
+  - query: 'abs:"variational inference" AND abs:"Bayesian"'
+    category: computation
+    subcategory_hint: method
+  - query: 'abs:"Bayesian neural network"'
+    category: deep-bayesian
+    subcategory_hint: method
+  - query: 'abs:"Bayesian optimization"'
+    category: applications
+    subcategory_hint: method
+  - query: 'abs:"Bayesian nonparametric"'
+    category: nonparametric
+    subcategory_hint: method
+  - query: 'abs:"hierarchical Bayesian"'
+    category: hierarchical
+    subcategory_hint: method
+  - query: 'abs:"Bayesian model selection" OR abs:"Bayes factor"'
+    category: model-selection
+    subcategory_hint: method
+  - query: 'abs:"Bayesian inference" AND abs:"posterior"'
+    category: inference
+    subcategory_hint: method
+  - query: 'abs:"probabilistic programming" AND abs:"Bayesian"'
+    category: computation
+    subcategory_hint: development
+  - query: 'abs:"Gaussian process" AND abs:"Bayesian"'
+    category: nonparametric
+    subcategory_hint: method
+  - query: 'abs:"sequential Monte Carlo" OR abs:"particle filter" AND abs:"Bayesian"'
+    category: computation
+    subcategory_hint: method
+
+# ── Discovery: multi-source queries (fetch_other_sources.py) ─────────────────
+other_sources_queries:
+  - source: dblp
+    query: Bayesian inference computation
+    category: computation
+    subcategory_hint: method
+  - source: crossref
+    query: Bayesian statistics survey review
+    category: survey
+    subcategory_hint: survey
+  - source: europepmc
+    query: Bayesian hierarchical model application
+    category: applications
+    subcategory_hint: application
+  - source: dblp
+    query: Bayesian neural network uncertainty
+    category: deep-bayesian
+    subcategory_hint: method
+  - source: crossref
+    query: Bayesian nonparametric Dirichlet process
+    category: nonparametric
+    subcategory_hint: method
+
+# ── OpenAlex bulk fetch (fetch_openalex_bulk.py) ─────────────────────────────
+openalex_queries:
+  - category: inference
+    query: "Bayesian inference posterior estimation"
+  - category: computation
+    query: "Markov chain Monte Carlo variational inference"
+  - category: priors
+    query: "Bayesian prior specification elicitation"
+  - category: model-selection
+    query: "Bayesian model selection Bayes factor"
+  - category: hierarchical
+    query: "hierarchical Bayesian multilevel model"
+  - category: nonparametric
+    query: "Bayesian nonparametric Gaussian process Dirichlet"
+  - category: deep-bayesian
+    query: "Bayesian neural network uncertainty deep learning"
+  - category: applications
+    query: "Bayesian statistics application real-world"
+  - category: survey
+    query: "Bayesian statistics review survey tutorial"
+
+# ── GitHub repository discovery (fetch_github_repos.py) ─────────────────────
+github_queries:
+  - query: "topic:bayesian+stars:>50"
+    category: computation
+  - query: "Bayesian+inference+python+stars:>100"
+    category: computation
+  - query: "probabilistic+programming+stars:>100"
+    category: computation
+  - query: "MCMC+python+stars:>50"
+    category: computation
+  - query: "Bayesian+optimization+stars:>100"
+    category: applications
+  - query: "Bayesian+neural+network+stars:>50"
+    category: deep-bayesian
+
+# ── GitLab repository discovery (fetch_gitlab_repos.py) ──────────────────────
+gitlab_queries:
+  - query: "Bayesian inference"
+    category: computation
+  - query: "probabilistic programming"
+    category: computation
+
+# ── Codeberg repository discovery (fetch_codeberg_repos.py) ──────────────────
+codeberg_queries:
+  - query: "Bayesian statistics"
+    category: computation
+
+# ── Relevance signals for repo fetchers ──────────────────────────────────────
+repo_signals:
+  - "Bayesian"
+  - "MCMC"
+  - "variational inference"
+  - "probabilistic programming"
+  - "posterior"
+  - "Stan"
+  - "PyMC"
+  - "NumPyro"
+  - "Bayes factor"
+  - "Gaussian process"
+
+# ── arXiv category expansion for saturate_papers.py ─────────────────────────
+arxiv_expand_cats:
+  - "stat.ML"
+  - "stat.CO"
+  - "stat.TH"
+  - "stat.AP"
+  - "cs.LG"
+  - "math.ST"
+  - "math.PR"
+
+# ── Relevance keywords for saturate_papers.py ────────────────────────────────
+# Papers must contain at least one of these in title or abstract to be kept.
+relevance_keywords:
+  - "Bayesian"
+  - "posterior"
+  - "prior"
+  - "MCMC"
+  - "Markov chain Monte Carlo"
+  - "variational inference"
+  - "Bayes factor"
+  - "Bayesian inference"
+  - "probabilistic"
+  - "Gaussian process"
+  - "Dirichlet process"
+  - "Bayesian neural"
+  - "Bayesian optimization"
+  - "Bayesian nonparametric"
+  - "hierarchical Bayesian"
+  - "sequential Monte Carlo"
+  - "Hamiltonian Monte Carlo"
+  - "approximate Bayesian computation"
+  - "Bayesian deep learning"
+
+# ── Trend / burst keywords ──────────────────────────────────────────────────
+trend_keywords:
+  - "Bayesian inference"
+  - "MCMC"
+  - "variational inference"
+  - "posterior"
+  - "prior"
+  - "Bayes factor"
+  - "hierarchical model"
+  - "Bayesian neural network"
+  - "uncertainty quantification"
+  - "Bayesian optimization"
+  - "Gaussian process"
+  - "Dirichlet process"
+  - "sequential Monte Carlo"
+  - "Hamiltonian Monte Carlo"
+  - "Bayesian nonparametric"
+  - "model selection"
+  - "Bayesian deep learning"
+  - "approximate Bayesian computation"
+  - "probabilistic programming"
+  - "normalizing flow"
+  - "Stein variational"
+  - "evidence lower bound"
+  - "Bayesian model averaging"
+  - "conjugate prior"
+  - "posterior approximation"
+
+# ── Subclassification keywords ──────────────────────────────────────────────
+subcategory_keywords:
+  - id: theory
+    keywords: ["theory", "theoretical", "proof", "convergence", "bound", "consistency", "asymptotic", "posterior contraction", "consistency"]
+  - id: method
+    keywords: ["method", "algorithm", "approach", "technique", "framework", "sampler", "estimator", "inference scheme", "novel"]
+  - id: application
+    keywords: ["application", "applied", "real-world", "case study", "clinical", "epidemiolog", "finance", "ecolog", "genomic"]
+  - id: evaluation
+    keywords: ["benchmark", "evaluation", "comparison", "baseline", "empirical study", "empirical evaluation"]
+  - id: development
+    keywords: ["implementation", "software", "package", "library", "toolkit", "open-source", "probabilistic programming", "Stan", "PyMC", "JAGS", "NumPyro"]
+  - id: systems
+    keywords: ["system", "framework", "platform", "scalable", "distributed", "GPU", "parallel", "high-performance"]
+  - id: survey
+    keywords: ["survey", "review", "literature", "tutorial", "overview", "taxonomy", "introduction"]
+  - id: experiment
+    keywords: ["experiment", "experimental", "simulation study", "numerical study", "synthetic"]

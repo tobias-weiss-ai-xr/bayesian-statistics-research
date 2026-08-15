@@ -1,0 +1,46 @@
+# ── Discovery: multi-source queries (fetch_other_sources.py) ─────────────────
+# Each entry defines one query against a source (dblp, crossref, europepmc).
+# Sources are queried sequentially; results are de-duplicated by title.
+# Category and subcategory_hint are used for auto-classification.
+
+queries:
+  - source: dblp
+    query: Bayesian inference computation MCMC
+    category: computation
+    subcategory_hint: method
+  - source: dblp
+    query: Bayesian neural network uncertainty
+    category: deep-bayesian
+    subcategory_hint: method
+  - source: dblp
+    query: Bayesian nonparametric Gaussian process
+    category: nonparametric
+    subcategory_hint: method
+  - source: dblp
+    query: variational inference Bayesian
+    category: computation
+    subcategory_hint: method
+  - source: crossref
+    query: Bayesian statistics survey review
+    category: survey
+    subcategory_hint: survey
+  - source: crossref
+    query: Bayesian model selection Bayes factor
+    category: model-selection
+    subcategory_hint: method
+  - source: crossref
+    query: hierarchical Bayesian multilevel model
+    category: hierarchical
+    subcategory_hint: method
+  - source: europepmc
+    query: Bayesian hierarchical model clinical application
+    category: applications
+    subcategory_hint: application
+  - source: europepmc
+    query: Bayesian optimization hyperparameter
+    category: applications
+    subcategory_hint: method
+  - source: europepmc
+    query: approximate Bayesian computation ABC
+    category: computation
+    subcategory_hint: method

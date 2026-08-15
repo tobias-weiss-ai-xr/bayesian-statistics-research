@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research corpus, please cite it as follows."
+title: "Bayesian Statistics Research Corpus — Data-Driven Agentic Literature Review"
+abstract: "A data-driven, auto-validated literature review corpus for Bayesian statistics: inference, computation, prior modeling, model selection, hierarchical and nonparametric Bayes, Bayesian deep learning, and applications. Papers in papers.yaml, everything else generated."
+authors:
+  - family-names: "Weiß"
+    given-names: "Tobias"
+    orcid: ""
+date-released: "2026-08-15"
+license: MIT
+keywords:
+  - bayesian-statistics
+  - bayesian-inference
+  - mcmc
+  - variational-inference
+  - bayesian-deep-learning
+  - literature-review
+  - research-corpus
+  - agentic-ai
+repository-code: "https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research"
