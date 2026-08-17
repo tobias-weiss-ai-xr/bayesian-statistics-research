@@ -4,10 +4,10 @@
 <h3 align="center">Data-driven, auto-validated literature review for Bayesian statistics</h3>
 
 <div align="center">
-  [![GitHub](https://img.shields.io/badge/GitHub-tobias-weiss-ai-xr/bayesian--statistics--research-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research)
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/bayesian--statistics--research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research/actions/workflows/validate.yml)
-  [![Decision-Making](https://img.shields.io/badge/Decision-Making-dm--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/dm-research) [![Robotics](https://img.shields.io/badge/Robotics-robotics--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/robotics-research) [![Learning](https://img.shields.io/badge/Learning-learning--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/learning-research)
+  [**GitHub**](https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research)
+  [**License**](LICENSE)
+  [**CI**](https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research/actions/workflows/validate.yml)
+  [**Decision-Making**](https://github.com/tobias-weiss-ai-xr/dm-research) [**Robotics**](https://github.com/tobias-weiss-ai-xr/robotics-research) [**Learning**](https://github.com/tobias-weiss-ai-xr/learning-research)
 </div>
 
 > 📊 **Bayesian statistics research corpus:** inference, computation, priors, model
