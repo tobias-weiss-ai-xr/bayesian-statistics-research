@@ -3,12 +3,15 @@
 </h1>
 <h3 align="center">Data-driven, auto-validated literature review for Bayesian statistics</h3>
 
-<div align="center">
-  [**GitHub**](https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research)
-  [**License**](LICENSE)
-  [**CI**](https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research/actions/workflows/validate.yml)
-  [**Decision-Making**](https://github.com/tobias-weiss-ai-xr/dm-research) [**Robotics**](https://github.com/tobias-weiss-ai-xr/robotics-research) [**Learning**](https://github.com/tobias-weiss-ai-xr/learning-research)
-</div>
+### 🔗 Links
+
+- **GitHub**: https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research
+- **License**: https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research/blob/main/LICENSE
+- **CI**: https://github.com/tobias-weiss-ai-xr/bayesian-statistics-research/actions/workflows/validate.yml
+- **Decision-Making**: https://github.com/tobias-weiss-ai-xr/dm-research
+- **Robotics**: https://github.com/tobias-weiss-ai-xr/robotics-research
+- **Learning**: https://github.com/tobias-weiss-ai-xr/learning-research
+
 
 > 📊 **Bayesian statistics research corpus:** inference, computation, priors, model
 > selection, hierarchical, nonparametric, deep Bayesian, applications, and surveys —
