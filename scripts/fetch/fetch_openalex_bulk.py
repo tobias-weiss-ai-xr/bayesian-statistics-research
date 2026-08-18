@@ -10,6 +10,8 @@ Usage:
 """
 
 import argparse
+from datetime import datetime, timedelta
+import json
 import re
 import time
 from datetime import datetime, timedelta, timezone
@@ -132,7 +134,7 @@ def fetch_category(terms, months, per_category, sleep, subcat_keywords=None, mai
             try:
                 resp = requests.get(OPENALEX_API, params=params, timeout=30)
                 if resp.status_code == 429:
-                    wait = 15 * (attempt + 1)
+                    wait = 5 * (attempt + 1)
                     print(f"    rate-limited (429), waiting {wait}s...", flush=True)
                     time.sleep(wait)
                     continue
@@ -214,6 +216,19 @@ def main():
     parser.add_argument("--categories", default=None, help="Comma-separated subset of category keys")
     parser.add_argument("--local", action="store_true", help="Append results to papers.yaml")
     args = parser.parse_args()
+
+    # Skip if fetched recently (30 days)
+    stats_path = Path(__file__).resolve().parent.parent / "statistics.json"
+    if stats_path.exists():
+        stats = json.load(open(stats_path))
+        last = stats.get("last_openalex_fetch")
+        if last:
+            try:
+                last_dt = datetime.fromisoformat(last)
+                if datetime.now() - last_dt < timedelta(days=30):
+                    print(f"  Skipping: fetched {last} (<30 days ago)")
+                    sys.exit(0)
+            except: pass
 
     cfg = research_config.load_config()
     category_terms = load_category_terms(cfg)
