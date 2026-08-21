@@ -23,40 +23,40 @@
   {
    "id": "computation",
    "name": "Computational Methods",
-   "count": 416,
+   "count": 495,
    "trajectory": {
     "2025": 142,
-    "2026": 274
+    "2026": 353
    },
    "momentum": {
     "id": "computation",
     "name": "Computation",
-    "total": 416,
-    "recent": 416,
+    "total": 495,
+    "recent": 495,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 34.7,
+    "papers_per_month": 41.2,
     "score": 100.0
    }
   },
   {
    "id": "deep-bayesian",
    "name": "Bayesian Deep Learning",
-   "count": 209,
+   "count": 229,
    "trajectory": {
     "2025": 60,
-    "2026": 149
+    "2026": 169
    },
    "momentum": {
     "id": "deep-bayesian",
     "name": "Deep Bayesian",
-    "total": 209,
-    "recent": 209,
+    "total": 229,
+    "recent": 229,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 17.4,
+    "papers_per_month": 19.1,
     "score": 100.0
    }
   },
@@ -83,20 +83,20 @@
   {
    "id": "inference",
    "name": "Inference & Posterior Estimation",
-   "count": 312,
+   "count": 376,
    "trajectory": {
     "2025": 88,
-    "2026": 224
+    "2026": 288
    },
    "momentum": {
     "id": "inference",
     "name": "Inference",
-    "total": 312,
-    "recent": 312,
+    "total": 376,
+    "recent": 376,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 26.0,
+    "papers_per_month": 31.3,
     "score": 100.0
    }
   },
@@ -169,7 +169,7 @@
   {
    "id": "development",
    "name": "Development",
-   "count": 107
+   "count": 143
   },
   {
    "id": "evaluation",
@@ -179,7 +179,7 @@
   {
    "id": "method",
    "name": "Method",
-   "count": 1086
+   "count": 1168
   },
   {
    "id": "survey",
@@ -194,7 +194,7 @@
   {
    "id": "theory",
    "name": "Theory",
-   "count": 230
+   "count": 275
   }
  ],
  "timeline": [
@@ -2726,6 +2726,16 @@
   [
    "2026-02",
    "computation",
+   "development"
+  ],
+  [
+   "2026-02",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-02",
+   "computation",
    "method"
   ],
   [
@@ -3195,6 +3205,21 @@
   ],
   [
    "2026-02",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-02",
    "model-selection",
    "evaluation"
   ],
@@ -3406,6 +3431,81 @@
   [
    "2026-03",
    "computation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-03",
+   "computation",
    "method"
   ],
   [
@@ -3562,6 +3662,11 @@
    "2026-03",
    "computation",
    "theory"
+  ],
+  [
+   "2026-03",
+   "deep-bayesian",
+   "method"
   ],
   [
    "2026-03",
@@ -3941,6 +4046,71 @@
   [
    "2026-03",
    "inference",
+   "method"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "inference",
    "theory"
   ],
   [
@@ -4206,6 +4376,86 @@
   [
    "2026-04",
    "computation",
+   "development"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-04",
+   "computation",
    "method"
   ],
   [
@@ -4372,6 +4622,26 @@
    "2026-04",
    "computation",
    "theory"
+  ],
+  [
+   "2026-04",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-04",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-04",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-04",
+   "deep-bayesian",
+   "method"
   ],
   [
    "2026-04",
@@ -4651,6 +4921,76 @@
   [
    "2026-04",
    "inference",
+   "method"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "inference",
    "theory"
   ],
   [
@@ -4936,6 +5276,66 @@
   [
    "2026-05",
    "computation",
+   "development"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-05",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-05",
+   "computation",
    "method"
   ],
   [
@@ -5236,6 +5636,26 @@
   [
    "2026-05",
    "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-05",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-05",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-05",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-05",
+   "deep-bayesian",
    "theory"
   ],
   [
@@ -5467,6 +5887,61 @@
    "2026-05",
    "inference",
    "method"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "inference",
+   "theory"
   ],
   [
    "2026-05",
@@ -5786,6 +6261,81 @@
   [
    "2026-06",
    "computation",
+   "development"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-06",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-06",
+   "computation",
    "method"
   ],
   [
@@ -5897,6 +6447,36 @@
    "2026-06",
    "computation",
    "theory"
+  ],
+  [
+   "2026-06",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-06",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-06",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-06",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-06",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-06",
+   "deep-bayesian",
+   "method"
   ],
   [
    "2026-06",
@@ -6177,6 +6757,61 @@
    "2026-06",
    "inference",
    "method"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "theory"
   ],
   [
    "2026-06",
@@ -6506,6 +7141,51 @@
   [
    "2026-07",
    "computation",
+   "development"
+  ],
+  [
+   "2026-07",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-07",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-07",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-07",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-07",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-07",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-07",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-07",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-07",
+   "computation",
    "method"
   ],
   [
@@ -6612,6 +7292,26 @@
    "2026-07",
    "computation",
    "theory"
+  ],
+  [
+   "2026-07",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-07",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-07",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-07",
+   "deep-bayesian",
+   "method"
   ],
   [
    "2026-07",
@@ -6886,6 +7586,11 @@
   [
    "2026-07",
    "inference",
+   "method"
+  ],
+  [
+   "2026-07",
+   "inference",
    "systems"
   ],
   [
@@ -6945,6 +7650,36 @@
   ],
   [
    "2026-07",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-07",
    "model-selection",
    "method"
   ],
@@ -7151,6 +7886,56 @@
   [
    "2026-08",
    "computation",
+   "development"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "development"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "computation",
    "method"
   ],
   [
@@ -7167,6 +7952,11 @@
    "2026-08",
    "computation",
    "theory"
+  ],
+  [
+   "2026-08",
+   "deep-bayesian",
+   "method"
   ],
   [
    "2026-08",
@@ -7317,6 +8107,31 @@
    "2026-08",
    "inference",
    "method"
+  ],
+  [
+   "2026-08",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "inference",
+   "theory"
   ],
   [
    "2026-08",
@@ -7459,80 +8274,80 @@
  "keyword_bursts": [
   {
    "keyword": "posterior",
-   "recent": 582,
-   "total": 582,
+   "recent": 649,
+   "total": 649,
    "burst_score": 1.0,
-   "recent_share": 0.4044
+   "recent_share": 0.4051
   },
   {
    "keyword": "prior",
-   "recent": 433,
-   "total": 433,
+   "recent": 480,
+   "total": 480,
    "burst_score": 1.0,
-   "recent_share": 0.3009
+   "recent_share": 0.2996
   },
   {
    "keyword": "uncertainty quantification",
-   "recent": 193,
-   "total": 193,
+   "recent": 202,
+   "total": 202,
    "burst_score": 1.0,
-   "recent_share": 0.1341
+   "recent_share": 0.1261
   },
   {
    "keyword": "variational inference",
-   "recent": 149,
-   "total": 149,
+   "recent": 151,
+   "total": 151,
    "burst_score": 1.0,
-   "recent_share": 0.1035
+   "recent_share": 0.0943
   },
   {
    "keyword": "model selection",
-   "recent": 71,
-   "total": 71,
+   "recent": 75,
+   "total": 75,
    "burst_score": 1.0,
-   "recent_share": 0.0493
+   "recent_share": 0.0468
   },
   {
    "keyword": "hierarchical model",
-   "recent": 42,
-   "total": 42,
+   "recent": 45,
+   "total": 45,
    "burst_score": 1.0,
-   "recent_share": 0.0292
+   "recent_share": 0.0281
   },
   {
    "keyword": "posterior approximation",
-   "recent": 25,
-   "total": 25,
+   "recent": 27,
+   "total": 27,
    "burst_score": 1.0,
-   "recent_share": 0.0174
+   "recent_share": 0.0169
   },
   {
    "keyword": "normalizing flow",
-   "recent": 24,
-   "total": 24,
+   "recent": 25,
+   "total": 25,
    "burst_score": 1.0,
-   "recent_share": 0.0167
+   "recent_share": 0.0156
   },
   {
    "keyword": "evidence lower bound",
-   "recent": 16,
-   "total": 16,
+   "recent": 17,
+   "total": 17,
    "burst_score": 1.0,
-   "recent_share": 0.0111
+   "recent_share": 0.0106
   },
   {
    "keyword": "probabilistic programming",
    "recent": 15,
    "total": 15,
    "burst_score": 1.0,
-   "recent_share": 0.0104
+   "recent_share": 0.0094
   },
   {
    "keyword": "conjugate prior",
    "recent": 4,
    "total": 4,
    "burst_score": 1.0,
-   "recent_share": 0.0028
+   "recent_share": 0.0025
   }
  ]
 }
