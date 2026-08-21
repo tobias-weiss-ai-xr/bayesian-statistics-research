@@ -23,100 +23,100 @@
   {
    "id": "computation",
    "name": "Computational Methods",
-   "count": 415,
+   "count": 416,
    "trajectory": {
     "2025": 142,
-    "2026": 273
+    "2026": 274
    },
    "momentum": {
     "id": "computation",
     "name": "Computation",
-    "total": 415,
-    "recent": 415,
+    "total": 416,
+    "recent": 416,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 34.6,
+    "papers_per_month": 34.7,
     "score": 100.0
    }
   },
   {
    "id": "deep-bayesian",
    "name": "Bayesian Deep Learning",
-   "count": 206,
+   "count": 209,
    "trajectory": {
     "2025": 60,
-    "2026": 146
+    "2026": 149
    },
    "momentum": {
     "id": "deep-bayesian",
     "name": "Deep Bayesian",
-    "total": 206,
-    "recent": 206,
+    "total": 209,
+    "recent": 209,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 17.2,
+    "papers_per_month": 17.4,
     "score": 100.0
    }
   },
   {
    "id": "hierarchical",
    "name": "Hierarchical & Multilevel Models",
-   "count": 138,
+   "count": 139,
    "trajectory": {
     "2025": 25,
-    "2026": 113
+    "2026": 114
    },
    "momentum": {
     "id": "hierarchical",
     "name": "Hierarchical",
-    "total": 138,
-    "recent": 138,
+    "total": 139,
+    "recent": 139,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 11.5,
+    "papers_per_month": 11.6,
     "score": 100.0
    }
   },
   {
    "id": "inference",
    "name": "Inference & Posterior Estimation",
-   "count": 309,
+   "count": 312,
    "trajectory": {
     "2025": 88,
-    "2026": 221
+    "2026": 224
    },
    "momentum": {
     "id": "inference",
     "name": "Inference",
-    "total": 309,
-    "recent": 309,
+    "total": 312,
+    "recent": 312,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 25.8,
+    "papers_per_month": 26.0,
     "score": 100.0
    }
   },
   {
    "id": "model-selection",
    "name": "Model Selection & Averaging",
-   "count": 136,
+   "count": 138,
    "trajectory": {
     "2025": 41,
-    "2026": 95
+    "2026": 97
    },
    "momentum": {
     "id": "model-selection",
     "name": "Model Selection",
-    "total": 136,
-    "recent": 136,
+    "total": 138,
+    "recent": 138,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 11.3,
+    "papers_per_month": 11.5,
     "score": 100.0
    }
   },
@@ -179,7 +179,7 @@
   {
    "id": "method",
    "name": "Method",
-   "count": 1081
+   "count": 1086
   },
   {
    "id": "survey",
@@ -194,7 +194,7 @@
   {
    "id": "theory",
    "name": "Theory",
-   "count": 225
+   "count": 230
   }
  ],
  "timeline": [
@@ -3521,7 +3521,7 @@
   [
    "2026-03",
    "computation",
-   "theory"
+   "method"
   ],
   [
    "2026-03",
@@ -3557,6 +3557,16 @@
    "2026-03",
    "computation",
    "theory"
+  ],
+  [
+   "2026-03",
+   "computation",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "deep-bayesian",
+   "method"
   ],
   [
    "2026-03",
@@ -3812,6 +3822,11 @@
    "2026-03",
    "inference",
    "development"
+  ],
+  [
+   "2026-03",
+   "inference",
+   "method"
   ],
   [
    "2026-03",
@@ -7020,6 +7035,11 @@
   ],
   [
    "2026-07",
+   "model-selection",
+   "theory"
+  ],
+  [
+   "2026-07",
    "nonparametric",
    "method"
   ],
@@ -7195,6 +7215,16 @@
   ],
   [
    "2026-08",
+   "deep-bayesian",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "deep-bayesian",
+   "theory"
+  ],
+  [
+   "2026-08",
    "hierarchical",
    "development"
   ],
@@ -7245,6 +7275,16 @@
   ],
   [
    "2026-08",
+   "hierarchical",
+   "method"
+  ],
+  [
+   "2026-08",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-08",
    "inference",
    "method"
   ],
@@ -7295,6 +7335,16 @@
   ],
   [
    "2026-08",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "model-selection",
+   "method"
+  ],
+  [
+   "2026-08",
    "model-selection",
    "method"
   ],
@@ -7306,7 +7356,7 @@
   [
    "2026-08",
    "model-selection",
-   "method"
+   "theory"
   ],
   [
    "2026-08",
@@ -7347,11 +7397,11 @@
  "venues": [
   {
    "name": "arXiv (Cornell University)",
-   "papers": 39
+   "papers": 40
   },
   {
    "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 36
+   "papers": 37
   },
   {
    "name": "Figshare",
@@ -7394,88 +7444,88 @@
    "papers": 3
   },
   {
+   "name": "Cambridge University Press eBooks",
+   "papers": 3
+  },
+  {
    "name": "Statistics in Medicine",
    "papers": 3
   },
   {
    "name": "Applied Sciences",
    "papers": 3
-  },
-  {
-   "name": "Engineering Applications of Artificial Intelligence",
-   "papers": 3
   }
  ],
  "keyword_bursts": [
   {
    "keyword": "posterior",
-   "recent": 578,
-   "total": 578,
+   "recent": 582,
+   "total": 582,
    "burst_score": 1.0,
-   "recent_share": 0.4045
+   "recent_share": 0.4044
   },
   {
    "keyword": "prior",
-   "recent": 430,
-   "total": 430,
+   "recent": 433,
+   "total": 433,
    "burst_score": 1.0,
    "recent_share": 0.3009
   },
   {
    "keyword": "uncertainty quantification",
-   "recent": 191,
-   "total": 191,
+   "recent": 193,
+   "total": 193,
    "burst_score": 1.0,
-   "recent_share": 0.1337
+   "recent_share": 0.1341
   },
   {
    "keyword": "variational inference",
    "recent": 149,
    "total": 149,
    "burst_score": 1.0,
-   "recent_share": 0.1043
+   "recent_share": 0.1035
   },
   {
    "keyword": "model selection",
-   "recent": 70,
-   "total": 70,
+   "recent": 71,
+   "total": 71,
    "burst_score": 1.0,
-   "recent_share": 0.049
+   "recent_share": 0.0493
   },
   {
    "keyword": "hierarchical model",
    "recent": 42,
    "total": 42,
    "burst_score": 1.0,
-   "recent_share": 0.0294
+   "recent_share": 0.0292
   },
   {
    "keyword": "posterior approximation",
    "recent": 25,
    "total": 25,
    "burst_score": 1.0,
-   "recent_share": 0.0175
+   "recent_share": 0.0174
   },
   {
    "keyword": "normalizing flow",
    "recent": 24,
    "total": 24,
    "burst_score": 1.0,
-   "recent_share": 0.0168
+   "recent_share": 0.0167
   },
   {
    "keyword": "evidence lower bound",
    "recent": 16,
    "total": 16,
    "burst_score": 1.0,
-   "recent_share": 0.0112
+   "recent_share": 0.0111
   },
   {
    "keyword": "probabilistic programming",
    "recent": 15,
    "total": 15,
    "burst_score": 1.0,
-   "recent_share": 0.0105
+   "recent_share": 0.0104
   },
   {
    "keyword": "conjugate prior",

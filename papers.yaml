@@ -41906,3 +41906,280 @@ papers:
     结论 这篇论文具有开创性,因为它开辟了一个新的前沿领域。它表明量子计算机可以作为"因果模拟器"——一种可以利用其原生物理特性(如纠缠)来建模和验证我们对复杂系统中因果关系的理解的物理系统。它将问题从"量子计算能更快吗?"推进到"量子计算能不同吗?能否提供经典计算机无法企及的洞察和验证?"
     结构同构性假设的证实,加上硬件的认证,是迈向那个未来的里程碑式一步。'
   venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Bayesian data-driven discovery of partial differential equations with variable
+    coefficients
+  date: 2026-08
+  url: https://doi.org/10.1016/j.camwa.2026.07.034
+  category: inference
+  subcategory: theory
+  authors:
+  - Aoxue Chen
+  - Yifan Du
+  - Liyao Gao
+  abstract: ''
+  venue: Computers & Mathematics with Applications
+- title: 'Multi-fidelity delayed acceptance: Hierarchical MCMC sampling for Bayesian
+    inverse problems combining multiple solvers through deep neural networks'
+  date: 2026-03
+  url: https://doi.org/10.1016/j.cma.2026.118916
+  category: inference
+  subcategory: method
+  authors:
+  - Filippo Zacchei
+  - Paolo Conti
+  - Attilio Frangi
+  abstract: • Multi-fidelity delayed-acceptance MCMC for PDE-based Bayesian inverse
+    problems • Offline-trained neural networks correct heterogeneous coarse solvers
+    • No high-fidelity calls during sampling • Improved coarse-solver accuracy yields
+    better mixing • Groundwater and reaction-diffusion benchmarks show computational
+    savings Inverse uncertainty quantification (UQ) tasks such as parameter estimation
+    are computationally demanding whenever dealing with physics-based models, and
+    typically require repeated evaluations of complex numerical solvers. When partial
+    differential equations are involved, full-order models such as those based on
+    the Finite Element Method can make traditional sampling approaches like Markov
+    Chain Monte Carlo (MCMC) computationally infeasible. Although data-driven surrogate
+    models may help reduce evaluation costs, their utility is often limited by the
+    expense of generating high-fidelity data. In contrast, low-fidelity data can be
+    produced more efficiently, although relying on them alone may degrade the accuracy
+    of the inverse UQ solution. To address these challenges, we propose a Multi-Fidelity
+    Delayed Acceptance scheme for Bayesian inverse problems involving large-scale
+    physics-based models. Extending the Multi-Level Delayed Acceptance framework,
+    the method introduces multi-fidelity neural networks that combine the predictions
+    of solvers of varying fidelity, with high-fidelity evaluations restricted to an
+    offline training stage. During the online phase, likelihood evaluations are obtained
+    by evaluating the coarse solvers and passing their outputs to the trained neural
+    networks, thereby avoiding additional high-fidelity simulations. This construction
+    allows heterogeneous coarse solvers to be incorporated consistently within the
+    hierarchy, providing greater flexibility than standard Multi-Level Delayed Acceptance.
+    The proposed approach improves the approximation accuracy of the low-fidelity
+    solvers, leading to longer sub-chain lengths, better mixing, and accelerated posterior
+    inference. The effectiveness of the strategy is demonstrated on two benchmark
+    inverse problems involving (i) steady isotropic groundwater flow, (ii) an unsteady
+    reaction–diffusion system, for which substantial computational savings are obtained.
+  venue: Computer Methods in Applied Mechanics and Engineering
+- title: Moment Matching for Bayesian Inference in the Baseline New Keynesian Model
+  date: 2026-08
+  url: https://doi.org/10.1515/snde-2026-0030
+  category: inference
+  subcategory: method
+  authors:
+  - Tae‐Seok Jang
+  - Stephen Sacht
+  abstract: Abstract The sparsity and small size of economic samples often obscure
+    the identification of parameters in macroeconomic models. These identification
+    problems originate from the poorly defined mapping between a structural model
+    and reduced-form parameters. Hence, researchers rely on prominent estimation methods,
+    such as Bayesian approaches, which require sound knowledge of prior distributions
+    on parameters. These approaches, however, are characterized by a flat likelihood
+    and/or a posterior distribution driven mainly by prior information. To develop
+    a robust inference framework for macroeconomic data, we apply approximate Bayesian
+    computation combined with the choice of specific moment conditions. This estimation
+    approach circumvents the direct evaluation of high-dimensional likelihood functions
+    and can mitigate parameter-identification problems when combined with bootstrap-based
+    selection criteria. Our estimation method is successfully applied to a hybrid
+    version of the baseline New Keynesian model.
+  venue: Studies in Nonlinear Dynamics and Econometrics
+- title: Comparison of Probabilistic Approaches to Acoustic Full-Waveform Inversion
+    in Compressed Model and Data Spaces
+  date: 2026-03
+  url: https://doi.org/10.1007/s10712-026-09949-4
+  category: computation
+  subcategory: method
+  authors:
+  - Sean Berti
+  - Fabio Macelloni
+  - Mattia Aleardi
+  abstract: ''
+  venue: Surveys in Geophysics
+- title: 'Comparative Bayesian Model Selection for Unidentified Anomalous Phenomena
+    (UAP): A Multi-Modal Epistemic Evaluation of Origin Hypotheses'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21990487
+  category: model-selection
+  subcategory: theory
+  authors:
+  - Sebastian Todor
+  abstract: Evaluating candidate hypotheses for Unidentified Anomalous Phenomena (UAP)
+    presents a severe epistemic challenge characterized by sparse, multi-modal observational
+    telemetry and high theoretical uncertainty. Competing hypotheses range from conventional
+    sensor artifacts and classified aerospace assets to extraterrestrial technosignatures,
+    cryptographic terrestrial biospheres, and higher-dimensional mechanisms. In this
+    paper, we formulate a formal Bayesian model selection framework to quantitatively
+    rank thirteen candidate origin hypotheses against authenticated physical and sensor
+    telemetry. We define a multi-parameter Composite Data Quality Index (Q_j), construct
+    an Occam-penalized Boltzmann prior distribution based on required theoretical
+    degrees of freedom, and derive an exponential likelihood link function over eleven
+    distinct empirical evidence vectors. Under nominal calibration (lambda = 4.5),
+    the Extraterrestrial Hypothesis (H_ETH) achieves dominant posterior probability
+    (P(H_ETH | E) = 0.997), yielding decisive Bayes factors over interdimensional
+    (H_IDH), extratempestrial (H_TMP), and simulation (H_SIM) models, and overwhelming
+    factors (B > 10^12) over conventional prosaic explanations (H_PRO). Sensitivity
+    analyses across lambda in [2.0, 7.0], telemetry ablations, and uninformative flat
+    priors demonstrate that this result is structurally robust, driven by the comparative
+    physical parsimony of interstellar autonomous probes whose required performance
+    can be framed within general-relativistic metric engineering and established exoplanetary
+    demographics.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Index
+  date: 2026-07
+  url: https://doi.org/10.1017/9781009160421.011
+  category: model-selection
+  subcategory: theory
+  authors:
+  - Richard J. Samworth
+  - Rajen D. Shah
+  abstract: absolutely continuous component of a measure, 234, 330 Active Set algorithm,
+    81, 102, 270, 301, 303, 311 adaptation, 13, 280, 301, 312 adaptive Lasso estimator,
+    91, 105 additive model, 176 adjacent vertices of a graph, 188 adjoint of a bounded
+    linear operator, 368, 377 affine combination, 334 function, 335 hull of a set,
+    334 set, 334 Aitken estimator, 24, 48 all-ones vector, 19 almost everywhere, 328
+    almost sure convergence, 400 analysis of variance, 48 ancestor (in a graph), 189
+    anisotropic Nikol'ski class, 128 ANOVA, 48 antichain, 250 in a DAG, 300 maximal,
+    250 antiderivative, 291, 305, 309, 363 antitonic, 289 efficiency, 291 projection,
+    289 relative efficiency, 290 Approximate Message Passing, 104 Assouad's lemma,
+    229, 231, 232, 250, 252 asymptotic variance factor, 288 axiom of choice, 161,
+    182, 377 ball σ-algebra, 378 Banach space, 365 bandwidth, 107, 130, 153 basic
+    inequality, 72, 101, 312 basis pursuit, 343 Bayes estimator, 246 misclassification
+    error, 223 risk, 11, 246 Bayesian networks, 220 Benjamini-Hochberg procedure,
+    41, 47, 48 Benjamini-Yekutieli procedure, 47, 48 Bennett's inequality, 355, 409
+    Bernstein's inequality, 357, 409 Berry-Esseen theorem, 9, 20 Bessel's inequality,
+    375, 377 best subsets selection, 59 beta-min condition, 77 bi-convex/bi-concave
+    function, 284 bias (of an estimator), 4 bias-variance trade-off, 4, 112, 118,
+    143 binwidth, 107 block coordinate descent, 81, 87, 218 isotonic estimators, 301
+    blocked path, 195 blockwise matrix inverse, 35, 390 Bochner's theorem, 179, 345,
+    409 Bolzano-Weierstrass theorem, 379 Bonferroni correction, 28, 39, 48 test, 40
+    bootstrap, 1, 19 Borel measure, 324 set, 324 σ-algebra, 324 Borel-Cantelli lemmas,
+    8, 326, 408 boundary of a subset of a topological space, 317 bounded linear operator/functional,
+    161, 367 Lipschitz metric, 38, 401 Bretagnolle-Huber inequality, 243, 247 bump
+    function, 249 Carathéodory's theorem, 101, 341 Cartesian product of topological
+    spaces, 322 Cauchy criterion for uniform convergence, 322 determinant, 138, 147
+    matrix, 138, 147 Index sequence, 159, 316 Cauchy-Schwarz inequality, 364 causal
+    DAG, 192 minimality, 200, 216 central limit theorem, 9, 20, 402, 411 Lindeberg-Feller,
+    402, 406, 411 multivariate, 407 chain (in a DAG), 300 characteristic function
+    of a random vector, 343, 409 Chernoff bound, 352 χ 2 -divergence, 225 child (in
+    a graph), 188 classifier, 222 support vector, 165 closed ball in a metric space,
+    316 set in a metric space, 316 testing procedure, 40, 48 closest point theorem,
+    365 closure of a subset of a topological space, 317 Cochran's theorem, 25, 45,
+    48 coercive function, 60, 79, 263 cofinite topology, 317 collider node (in a path),
+    195 compact bounded linear operator, 367 singular value decomposition, 53, 394,
+    400 topological space, 318 compatibility condition, 72, 74, 101, 104 factor, 72,
+    103 complementary pairs stability selection, 97, 105, 208 complete graph, 188
+    metric space, 316 composite hypothesis, 29 concave function, 335 conditional dependence,
+    184, 199 distributions, 382 expectation, 381, 410 tower law, 381 independence,
+    184, 199 graph, 190 testing, 207, 219, 220 Jensen's inequality, 234, 381 monotone
+    convergence theorem, 215, 381 probability, 381, 410 cone invertibility condition,
+    104 confounder, 194 conjugate indices, 370, 391 constrained risk inequality, 253
+    continuity
+  venue: Cambridge University Press eBooks
+- title: 'A Unified Bayesian Model for Voter Turnout Estimation: Combining Surveys,
+    Aggregate Data, and Selection Correction'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.14062
+  category: hierarchical
+  subcategory: method
+  authors:
+  - Margus Niitsoo
+  - Reimo Rebane
+  - Tarmo Jüristo
+  abstract: 'Accurate small-area estimation of voter turnout for demographic subgroups
+    is crucial for political analysis but methodologically challenging. Survey data
+    suffer from over-reporting, non-representativeness, and non-ignorable non-response,
+    while ecological inference (EI) from aggregate data is vulnerable to the ecological
+    fallacy. We propose a Bayesian hierarchical framework that jointly integrates
+    individual-level survey data, official aggregate turnout margins, and census cell
+    counts. The framework comprises three models: a multilevel ecological inference
+    (EI) model that extends MRP-style structure to aggregate data, a Poll-and-Margin
+    (PM) model that jointly fits survey and margins in one coherent likelihood, and
+    a Full Selection (FS) model that adds a Heckman-style selection correction under
+    a random-contact assumption and uses informative priors for identification. In
+    simulations with controlled selection mechanisms based on empirical census demographics,
+    FS substantially improves over established benchmarks, particularly under strong
+    selection bias or heavy censoring, but is sensitive to unmodeled selection noise.
+    In an application to the 2023 Estonian parliamentary election, PM performs similarly
+    to the current state of the art on available validation margins, with FS showing
+    a modest improvement that depends on the informative priors.'
+  venue: arXiv (Cornell University)
+- title: 'Practical multi-fidelity machine learning: fusion of deterministic and Bayesian
+    models'
+  date: 2026-08
+  url: https://arxiv.org/abs/2407.15110
+  category: deep-bayesian
+  subcategory: theory
+  authors:
+  - Jiaxiang Yi
+  - Cheng Ji
+  - Miguel A. Bessa
+  abstract: ''
+  venue: Computational Mechanics
+- title: 'Learning with constraints: A physics-guided Bayesian framework for reliable
+    geothermal temperature mapping in northeastern Italy'
+  date: 2026-08
+  url: https://doi.org/10.1016/j.geothermics.2026.103816
+  category: deep-bayesian
+  subcategory: theory
+  authors:
+  - Danial Sheini Dashtgoli
+  - Michela Giustiniani
+  - Martina Busetti
+  abstract: Reliable deep-temperature estimation remains a central challenge in geothermal
+    exploration, particularly in sedimentary–carbonate provinces where borehole data
+    are sparse and vertically imbalanced. These conditions lead to unreliable extrapolation
+    and poor uncertainty characterization in classical interpolation and purely data-driven
+    models. This study develops a physics-guided Bayesian neural network (BNN) framework
+    that integrates heteroscedastic probabilistic learning with conductive heat-transfer
+    constraints to reconstruct the 3D geothermal structure of the Lower Friulian Plain
+    (NE Italy) using 849 irregularly distributed temperature measurements. To explicitly
+    address depth imbalance and evaluate extrapolation performance, a depth-aware
+    training and validation strategy was implemented, including controlled withholding
+    of deep observations (1000–1200 m). The architecture combines Monte Carlo-dropout
+    Bayesian inference with two physics-informed formulations, a monotonicity constraint
+    enforcing non-negative vertical gradients and a gradient-band constraint bounding
+    geothermal slopes within regionally plausible conductive ranges. The resulting
+    models achieve high fidelity in the data-supported domain (<1000 m), with coefficient
+    of determination (R 2 ) ≈ 0.95–0.96 and root mean square error ≈ 2.6–2.8 °C, while
+    classical and data-driven models show reduced reliability under extrapolation
+    conditions. The monotonic BNN attains R 2 = 0.877 and RMSE = 1.33 °C, and the
+    gradient-band BNN produces physically consistent geothermal gradients (≈0.014–0.018
+    °C/m), aligning with regional heat-flow constraints. Both physics-guided models
+    deliver near-ideal uncertainty calibration (≈97–99% prediction-interval coverage)
+    and eliminate nonphysical deep-zone oscillations. Independent validation against
+    the Grado-1 well confirms agreement within ±1 °C across the full 100–1200 m profile.
+    The proposed framework enables extrapolation-robust and uncertainty-aware 3D geothermal
+    mapping, providing a transferable approach for geothermal resource assessment
+    in data-limited subsurface systems.
+  venue: Geothermics
+- title: Probabilistic prediction of chlorophyll-a in a highly regulated river using
+    a multi-source Bayesian Neural Network
+  date: 2026-03
+  url: https://doi.org/10.5194/egusphere-egu26-6508
+  category: deep-bayesian
+  subcategory: method
+  authors:
+  - Yilun Li
+  - Xiang Zhang
+  abstract: 'Predicting riverine algal blooms remains a major challenge due to the
+    high stochasticity of aquatic systems and the complex, non-linear interactions
+    among environmental drivers. To address this, the present study establishes a
+    robust probabilistic forecasting framework for the middle and lower Han River,
+    China, by integrating multi-source datasets into a Bayesian Neural Network (BNN),
+    complemented by a hybrid interpretability approach merging Bayesian posterior
+    inference with Generalized Additive Model (GAM). By fusing heterogeneous long-term
+    hydrological, meteorological, water quality, and ecological data, the model effectively
+    captures dynamic environmental interactions and therefore provides reliable probabilistic
+    forecasts of chlorophyll-a (Chl-a) concentrations for 1-to-7-day horizons. The
+    BNN architecture explicitly performs uncertainty quantification to mitigate inherent
+    data noise and model uncertainty by delivering exceedance probability of bloom
+    predictions, which help decision-makers minimize false negatives near critical
+    alert thresholds. Key ecological findings elucidate a dual driving mechanism,
+    whereby short-term forecasts are predominantly governed by algal biological inertia,
+    whereas medium-to-long-term trends are constrained by environmental carrying capacity.
+    Specifically, bloom outbreaks hinge on a multi-factor environmental window featuring
+    water temperature exceeding 23°C, optimal light intensity, and stable hydrological
+    conditions. GAM analysis reveals a nonlinear relationship between total phosphorus
+    (TP) and Chl-a, indicating the limited efficacy of nutrient reduction in high-phosphorus
+    regimes. Methodologically, this study underscores the necessity of combining multi-source
+    data fusion with uncertainty quantification and non-linear attribution to advance
+    deep learning applications in complex ecological systems.Keywords: Bayesian Neural
+    Network; Uncertainty quantification; Algal Bloom Prediction; Middle and Lower
+    Han River; Multi-source datasets; Generalized Additive Model'
+  venue: ''
