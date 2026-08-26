@@ -60263,3 +60263,618 @@ papers:
     filtering procedure and enables ESS-based diagnostics when explicit model factors
     are available. Numerical experiments demonstrate that FLUID provides accurate
     approximations of both filtering distributions and smoothing paths.
+- title: Learning Probabilistic Filters with Strictly Proper Scoring Rules
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.26497v1
+  category: inference
+  subcategory: method
+  authors:
+  - Eviatar Bach
+  - Ricardo Baptista
+  - Jochen Bröcker
+  - Bohan Chen
+  - Andrew Stuart
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Bayesian filtering of partially and noisily observed dynamical systems
+    seeks to infer the evolving conditional distribution of the state of a dynamical
+    system, given observations, in an online fashion. This Bayesian filtering distribution
+    is the natural object for uncertainty quantification, but it is rarely available
+    as a supervised learning target. However, one can often use the forecast model
+    to generate synthetic system trajectories, along with synthetic observations.
+    We introduce the proper scoring ensemble filter (PSEF), an ensemble data assimilation
+    method based on training an analysis map to approximate the filtering distribution
+    using only synthetic state--observation trajectories. The analysis step is represented
+    as a permutation-invariant, transformer-based map that takes as input a forecast
+    ensemble and observations, producing an analysis ensemble. Training is based on
+    strictly proper scoring rules -- with the energy score used in our implementation
+    -- so that probabilistic accuracy is rewarded over the whole probability distribution.
+    We prove that, under a realizability assumption, the population objective is minimized
+    by the true Bayesian filtering distribution. We also derive the finite-ensemble
+    empirical objective used in training and relate its single state--observation
+    trajectory form to the population objective, using a mean-field consistency argument.
+    Numerical experiments show that the learned filter accurately approximates challenging
+    filtering distributions, including nonlinear, non-Gaussian, and multi-modal posteriors,
+    and achieves stronger performance in data assimilation tasks than classical methods
+    or learning-based methods with mean-squared-error objectives. For close-to-Gaussian
+    problems, learning a correction to the EnKF is the best approach, while for highly
+    non-Gaussian problems an end-to-end approach that discards this inductive bias
+    is superior.
+- title: 'Model Uncertainty under Non-Gaussian Errors: Bayesian Model Averaging and
+    Selection in Stochastic Frontier Models'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.14274v1
+  category: computation
+  subcategory: development
+  authors:
+  - Kamil Makieła
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The paper investigates Bayesian Model Averaging and Selection (BMA/S)
+    under non-standard stochastic assumptions, focusing on stochastic frontier analysis
+    (SFA). We propose fast, reliable procedures for inference in the normal-exponential
+    stochastic frontier model and examine whether accounting for asymmetric disturbances
+    affects model averaging and/or selection outcomes relative to the conventional
+    Gaussian-error BMA/S. Particular attention is given to moderate-dimensional covariate
+    selection problems typical in SFA applications. We demonstrate that, with appropriate
+    search strategies and parallelization techniques, exhaustive model search can
+    be computationally feasible and, in some cases, more practical than stochastic
+    search alternatives. A Monte Carlo simulation study is used to compare the proposed
+    SF-BMA/S procedure with standard Gaussian-error BMA/S under varying levels of
+    inefficiency-to-noise ratio and signal strength with respect to the data generating
+    process. The results show that accounting for stochastic frontier structures may
+    affect posterior inference and model averaging outcomes, especially in scenarios
+    where efficiency analysis is most sensible.
+- title: Bayesian Estimation of Variance under Fine Stratification via Mean-Variance
+    Smoothing
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.03569v1
+  category: computation
+  subcategory: development
+  authors:
+  - Sepideh Mosaferi
+  - Shonosuke Sugasawa
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Fine stratification survey is useful in many applications as its point
+    estimator is unbiased, but the variance estimator under the design cannot be easily
+    obtained, particularly when the sample size per stratum is as small as one unit.
+    One common practice to overcome this difficulty is to collapse strata in pairs
+    to create pseudo-strata and then estimate the variance. The estimator of variance
+    achieved is not design-unbiased, and the positive bias increases as the population
+    means of the paired pseudo-strata become more variant. The resulting confidence
+    intervals can be unnecessarily large. In this paper, we propose a new Bayesian
+    estimator for variance which does not rely on collapsing strata, unlike the previous
+    methods given in the literature. We employ the penalized spline method for smoothing
+    the mean and variance together in a nonparametric way. Furthermore, we make comparisons
+    with the earlier work of Breidt et al. (2016). Throughout multiple simulation
+    studies and an illustration using data from the National Survey of Family Growth
+    (NSFG), we demonstrate the favorable performance of our methodology.
+- title: More accurate behavioral predictions with hybrid Bayesian-connectionist models
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22154v1
+  category: deep-bayesian
+  subcategory: method
+  authors:
+  - Brenden M. Lake
+  - Akshay K. Jagadish
+  - Guangyuan Jiang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Researchers must often choose between Bayesian or neural network models
+    of behavior, two paradigms with complementary strengths and weaknesses. An ideal
+    paradigm would facilitate testing many kinds of representations and inductive
+    biases; Bayesian models make this easy, while neural networks do not. Similarly,
+    an ideal paradigm would avoid over-simplifications; neural networks make this
+    easy, while Bayesian models do not. Here, we introduce Bayesian distillation with
+    Behavioral Tuning (BBT) as an approach to getting the best of both traditions.
+    BBT offers a simple recipe for model building: first, a neural network is trained
+    to mimic a Bayesian model through synthetic data, and second, the network is fine-tuned
+    on human behavior to capture additional structure and nuance. Across four case
+    studies in human concept learning, we find that BBT outperforms traditional approaches
+    at predicting human behavior while also revealing psychological insights, resulting
+    in models that can both mimic Bayesian priors and capture heuristics and biases
+    that violate simple modeling assumptions.'
+- title: Enhancing Bayesian Optimization and Active Learning Through Kernel Diversity
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24721v1
+  category: deep-bayesian
+  subcategory: method
+  authors:
+  - Heng Zhang
+  - Haotian Xiang
+  - Qin Lu
+  - Konstantinos D. Polyzos
+  - Tara Javidi
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Hyperparameter selection remains a key challenge in Bayesian optimization
+    (BO) and Bayesian active learning (AL), as model misspecification can lead to
+    suboptimal performance, while more accurate fully Bayesian treatments typically
+    rely on computationally expensive MCMC sampling. This paper proposes a unified
+    framework, KENDO (Kernel ENsemble Disagreement-aware Operator), that integrates
+    Ensemble Gaussian Processes (EGP) with disagreement-aware acquisition strategies.
+    The central idea is to replace hyperparameter sampling with a kernel ensemble
+    and adaptive Bayesian weighting, combined with disagreement-aware acquisition
+    strategies. Within this unified framework, we instantiate KENDO-BO for BO and
+    KENDO-AL for Bayesian AL, demonstrating that both arise from a common self-correcting
+    mechanism with task-specific acquisition objectives. We further extend the approach
+    to multi-objective optimization via random scalarization that preserves the single-optimizer
+    conditioning structure. Thorough numerical tests on synthetic and real-world benchmarks
+    across single-objective optimization, multi-objective optimization, and active
+    learning demonstrate that (i) KENDO-BO achieves competitive or superior optimization
+    performance compared to state-of-the-art methods while reducing computational
+    overhead by up to $5\times$ and (ii) KENDO-AL achieves superior predictive calibration
+    over MCMC-based active learning baselines with up to $27\times$ speedup.
+- title: 'A Decision-Theoretic View of Test-Time Training: When, How Far, and Which
+    Directions to Adapt'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.15569v1
+  category: inference
+  subcategory: theory
+  authors:
+  - Tomoya Wakayama
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Test-time training (TTT) adapts a pretrained model to each prompt via
+    parameter updates, improving accuracy under pretraining-to-test distribution shifts.
+    Yet, its performance often suffers from instability and sensitivity to hyperparameters
+    such as update steps and subspace. We explain this behavior through a decision-theoretic
+    lens, treating TTT as implicit Bayesian inference in the kernel regime. Under
+    a Gaussian process benchmark, we show that TTT reduces prediction error when updates
+    are spectrally matched to the prompt''s signal-to-noise ratio and aligned with
+    query-relevant eigen-directions. This perspective underpins the following results:
+    (1) we show when fixed update steps and subspaces fail under distribution shifts,
+    motivating adaptive strategies; (2) we prove that selecting update steps via prompt
+    evidence admits a PAC-Bayes guarantee against overfitting; and (3) we characterize
+    the Bayes-optimal update subspace under a linear-Gaussian correction model, yielding
+    a scoring rule for selecting Transformer blocks and heads. Our theory helps explain
+    the empirical instability of TTT, taking a step toward principled guidance for
+    when, how far, and which directions to adapt.'
+- title: Graphical Models for Multivariate Count Data
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.11366v1
+  category: inference
+  subcategory: theory
+  authors:
+  - Iza Danielewska
+  - Bartosz Kołodziejek
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The classical multinomial, negative multinomial, hypergeometric, and
+    negative hypergeometric distributions are naturally organized by two features
+    of the sampling scheme: sampling with or without replacement and stopping after
+    a fixed number of draws or a fixed number of failures. We complete the graphical
+    analogue of this scheme for decomposable graphs by adding graphical hypergeometric
+    and graphical negative hypergeometric distributions to the previously introduced
+    graphical multinomial and graphical negative multinomial models in Danielewska
+    et al. (2025). The resulting four families provide a unified parametric framework
+    for graphical modeling of multivariate count data, in which dependence and admissible
+    configurations are encoded by a graph. They interpolate between products of univariate
+    distributions for the empty graph and the corresponding classical multivariate
+    distributions for the complete graph, while retaining explicit Markov factorizations
+    and tractable sampling representations. We further develop a unified Bayesian
+    hierarchy based on graphical Dirichlet-type distributions, obtaining explicit
+    posterior and predictive laws. The framework is particularly natural for count
+    data arising under exclusion or incompatibility constraints. We discuss several
+    such applications and illustrate its practical potential using Rydberg-atom excitation
+    data.'
+- title: Asymptotics for Model Selection in Probabilistic Principal Component Analysis
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23513v1
+  category: inference
+  subcategory: theory
+  authors:
+  - Mathias Drton
+  - Andrew McCormack
+  - Daniel Windisch
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The probabilistic formulation of principal component analysis promises
+    statistically grounded solutions to the problem of selecting the number of principal
+    components. However, developing tractable model selection methods is complicated
+    by the fact that the probabilistic principal component analysis (PPCA) model exhibits
+    non-standard large sample asymptotics at model singularities, where the Fisher
+    information matrix does not have full rank. In this work, tools from singular
+    learning theory are used to provide a complete description of the marginal likelihood
+    asymptotics for PPCA. The singular Bayesian information criterion (sBIC) along
+    with our asymptotic results provides an effective procedure for selecting the
+    number of principal components. In particular, the sBIC corrects for the overpenalization
+    of the standard dimension-based BIC, which leads to too few principal components
+    being selected, while also selecting the smallest true model with probability
+    converging to one. Our framework extends beyond PPCA, where we also provide expressions
+    for the sBIC that can be used to select between PPCA and factor analysis models.
+    In both simulations and on real data the effectiveness of the proposed sBIC methodology
+    is demonstrated.
+- title: Exact autoregressive sampling of planar Ising spin glasses via the Kac--Ward
+    theory
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24382v1
+  category: computation
+  subcategory: method
+  authors:
+  - Jing Liu
+  - Tao Chen
+  - Tianrui Che
+  - Lei Wang
+  - Youjin Deng
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Exact sampling from the Boltzmann distribution of spin glasses remains
+    an outstanding challenge: Markov chain Monte Carlo methods suffer from critical
+    slowing down and metastable trapping, while modern neural autoregressive samplers
+    such as variational autoregressive networks are approximate and, in the absence
+    of exact reference samples, cannot be rigorously benchmarked. Here we present
+    an exact autoregressive sampling algorithm for planar Ising spin glasses based
+    on the Kac--Ward theory. Under the chain-rule factorization, sequentially fixing
+    spins induces boundary-localized external fields, which destroy the zero-field
+    structure required for exact evaluation. By encoding these fields with a planarity-preserving
+    auxiliary spin construction, the conditional partition functions are mapped to
+    an extended zero-field Ising model and exactly evaluated using the Kac--Ward determinant
+    formula. The method generates strictly independent and identically distributed
+    samples with exact normalized likelihoods at a computational cost of $\mathcal{O}(N^{5/2})$
+    for $N$ spins, thereby providing an exact baseline for benchmarking neural autoregressive
+    samplers.'
+- title: Adaptive Riemannian Manifold Hamiltonian Monte Carlo with Hierarchical Metric
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.09832v2
+  category: computation
+  subcategory: method
+  authors:
+  - Miika Kailas
+  - Matti Vihola
+  - Jonas Wallin
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Hamiltonian Monte Carlo (HMC) and its dynamic extensions, such as the
+    No-U-Turn Sampler (NUTS), are powerful Markov chain Monte Carlo methods for sampling
+    from complex, high-dimensional probability distributions. Riemannian manifold
+    Hamiltonian Monte Carlo (RMHMC) extends HMC by allowing the mass matrix to depend
+    on position, which can substantially improve mixing but also makes implementation
+    considerably more challenging. In this paper, we study an adaptive hierarchical
+    version of RMHMC that is well suited to many hierarchical sampling problems. A
+    key feature of hierarchical RMHMC is that, unlike general RMHMC, it admits a closed-form
+    explicit leapfrog integrator, enabling efficient implementation and direct use
+    within dynamic HMC methods such as NUTS. We introduce an adaptive scheme that
+    automatically tunes the parameters of the hierarchical mass matrix during simulation.
+    Importantly, the target density need not exhibit any hierarchical or block structure;
+    the hierarchy is instead imposed on the mass matrix as a modeling device to capture
+    the local geometry of the target distribution. Numerical experiments demonstrate
+    appealing empirical performance in high-dimensional Bayesian inference problems.
+- title: Nearest-Neighbor Non-Gaussian Processes for Geostatistical Modeling
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22422v1
+  category: computation
+  subcategory: method
+  authors:
+  - Penghui Fu
+  - Yuhan Dong
+  - Jianhua Z. Huang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We develop a general class of nearest-neighbor non-Gaussian processes
+    (NNnGP) for modeling geostatistical data. By introducing non-linear conditional
+    mean functions into the Vecchia approximation, NNnGP extends the popular nearest-neighbor
+    Gaussian process (NNGP) to effectively capture complex, non-Gaussian spatial characteristics.
+    To ensure coherent spatial predictions from a single realization, we propose a
+    regularized homogeneity condition across the univariate conditionals. We then
+    formulate a Bayesian non-parametric construction of the conditional mean using
+    Gaussian processes and embed the resulting NNnGP as a non-Gaussian spatial prior
+    within a hierarchical regression model. For posterior computation and prediction,
+    we adopt a normalizing flow-based variational inference approach. Numerical experiments
+    on synthetic data and real-world PRISM precipitation anomalies demonstrate that
+    NNnGP captures local non-linear dependencies and significantly mitigates the underestimation
+    of extreme spatial events, all the while maintaining global predictive accuracy.
+- title: Sequential operator learning under dependent data
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24426v1
+  category: applications
+  subcategory: method
+  authors:
+  - Rafael Oliveira
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Learning operators from sequentially collected data arises in adaptive
+    experimental design, Bayesian optimization, and dynamical-system modelling, where
+    observations may be dependent, and future inputs or sensing operators may depend
+    on preceding data. We derive time-uniform self-normalized concentration bounds
+    for stochastic processes in Hilbert spaces with vector-valued noise. We use these
+    bounds to obtain regression-error guarantees for linear operators, including targets
+    outside the Hilbert estimation space, and for nonlinear parametric operators trained
+    with strongly convex losses and regularizers. Our results allow possibly infinite-dimensional
+    inputs and outputs without independence or mixing assumptions, providing a major
+    step towards convergence guarantees for adaptive operator learning and learning
+    from stochastic dynamical data.
+- title: Bayesian Inference of Psychometric Variables From Brain and Behavior in Implicit
+    Association Tests
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.16741v1
+  category: hierarchical
+  subcategory: method
+  authors:
+  - Christian A. Kothe
+  - Sean Mullen
+  - Michael V. Bronstein
+  - Grant Hanada
+  - Marcelo Cicconet
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Objective. We establish a principled method for inferring mental health
+    related psychometric variables from neural and behavioral data using the Implicit
+    Association Test (IAT) as the data generation engine, aiming to overcome the limited
+    predictive performance (typically under 0.7 AUC) of the gold-standard D-score
+    method, which relies solely on reaction times. Approach. We propose a sparse hierarchical
+    Bayesian model that leverages multi-modal data to predict experiences related
+    to mental illness symptoms in new participants. The model is a multivariate generalization
+    of the D-score with trainable parameters, engineered for parameter efficiency
+    in the small-cohort regime typical of IAT studies. Data from two IAT variants
+    were analyzed: a suicidality-related E-IAT ($n=39$) and a psychosis-related PSY-IAT
+    ($n=34$). Main Results. Our approach overcomes a high inter-individual variability
+    and low within-session effect size in the dataset, reaching AUCs of 0.73 (E-IAT)
+    and 0.76 (PSY-IAT) in the best modality configurations, though corrected 95% confidence
+    intervals are wide ($\pm 0.18$) and results are marginally significant after FDR
+    correction ($q=0.10$). Restricting the E-IAT to MDD participants improves AUC
+    to 0.79 $[0.62, 0.97]$ (significant at $q=0.05$). Performance is on par with the
+    best reference methods (shrinkage LDA and EEGNet) for each task, even when the
+    latter were adapted to the task, while the proposed method was not. Accuracy was
+    substantially above near-chance D-scores (0.50-0.53 AUC) in both tasks, with more
+    consistent cross-task performance than any single reference method. Significance.
+    Our framework shows promise for enhancing IAT-based assessment of experiences
+    related to entrapment and psychosis, and potentially other mental health conditions,
+    though further validation on larger and independent cohorts will be needed to
+    establish clinical utility.'
+- title: Constraints on the Modified Emergent Dark Energy Model Using DESI DR2 BAO
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24517v1
+  category: model-selection
+  subcategory: method
+  authors:
+  - Himanshu Chaudhary
+  - Dhruba Jyoti Gogoi
+  - Salvatore Capozziello
+  - G. Mustafa
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'In this work, we investigate the modified emergent dark energy (MEDE)
+    model using baryon acoustic oscillation measurements from the Dark Energy Spectroscopic
+    Instrument Data Release 2 (DESI DR2), together with CMB information from the {\tt
+    LoLLiPoP} (low-$\ell$) and {\tt HiLLiPoP} (high-$\ell$) likelihoods based on the
+    latest Planck NPIPE PR4 release, Planck PR4 lensing, ACT DR6 lensing, and three
+    Type Ia supernova samples (Pantheon$+$, DES-Dovekie, and Union3). We find that
+    the MEDE model remains largely consistent with the standard $Λ$CDM cosmology.
+    Although small departures from $Λ$CDM are allowed, the inclusion of SNe~Ia data
+    drives the model parameters toward the standard cosmological scenario, with the
+    parameter $α$ remaining consistent with $α=0$ at the $1σ$ level. The model does
+    not significantly alleviate the $H_0$ or $S_8$ tensions: the inferred $H_0$ values
+    remain below the SH0ES measurement, the sound horizon $r_d$ is nearly unchanged,
+    and the predicted $S_8$ values remain close to those of $Λ$CDM. The reconstructed
+    cosmological evolution closely follows the $Λ$CDM prediction, with deviations
+    generally below the $0.5σ$ level. While the CMB + DESI DR2 dataset favors a full
+    phantom regime, the inclusion of SNe~Ia shifts the evolution toward a full quintessence
+    regime. Finally, although the $Δχ^2_{\rm MAP}$ and $Δ{\rm AIC}$ criteria indicate
+    a marginally better fit than $Λ$CDM, the logarithmic Bayes factor provides only
+    inconclusive evidence in favor of the MEDE model. Overall, the MEDE model remains
+    compatible with current observations but does not exhibit the phantom-crossing
+    behavior suggested by recent DESI DR2 analyses.'
+- title: 'Tsallis Holographic Dark Energy model with varying gravitational constant
+    vs $Λ$CDM model: statistical analysis of observational data and tensions problem'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23592v1
+  category: model-selection
+  subcategory: method
+  authors:
+  - Artyom V. Astashenok
+  - Alexander S. Tepliakov
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We investigate the cosmological evolution of a flat Friedmann--Robertson--Walker
+    Universe filled with Tsallis holographic dark energy (THDE) under the assumption
+    that the gravitational constant $G$ varies with time according to the power-law
+    parametrisation $d\ln G / d\ln a = α_G = \mathrm{const}$. In this framework, the
+    holographic dark energy density is given by $ρ_{\mathrm{DE}} \propto L^{2γ- 4}$,
+    where $L$ is the future event horizon and $γ$ is the Tsallis non-additivity parameter.
+    We study both the past and future evolution of the Universe for various values
+    of the model parameters $C$, $γ$, and $α_G$. The viability of the model is tested
+    against a combination of observational data, including the Pantheon+ Type Ia supernova
+    sample, direct Hubble parameter measurements $H(z)$, and baryon acoustic oscillation
+    (BAO) data. Using Markov Chain Monte Carlo (MCMC) methods and Bayesian analysis
+    tools such as the Deviance Information Criterion (DIC), the Bayes factor, and
+    the suspiciousness metric, we perform a rigorous statistical comparison with the
+    standard $Λ$CDM model. Our results show that models with a varying gravitational
+    constant are preferred over $Λ$CDM. The best fit to the combined data is obtained
+    for the THDE model with $C &lt; 1$. Furthermore, we analyse the internal consistency
+    of the data sets using the Index of Inconsistency, the $Q_{\mathrm{DMAP}}$ statistic,
+    and Bayesian suspiciousness. We find that the THDE model with varying $G$ and
+    $C &lt; 1$ partially alleviates the tensions between different probes, reducing
+    the significance from $\sim 7.4σ$ to $\sim 5.3σ$.
+- title: Probabilistic inference of surface parameters for Monin-Obukhov similarity
+    theory
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.21549v1
+  category: inference
+  subcategory: method
+  authors:
+  - Ethan YoungIn Shin
+  - Michael F. Howland
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In simulations of atmospheric flow, the grid spacing typically exceeds
+    the size of the roughness elements at the surface by an order of magnitude. The
+    unresolved effects of surface morphology and roughness on the flow are represented
+    by effective surface parameters and specified as a surface flux boundary condition,
+    most often through a formulation based on Monin-Obukhov similarity theory (MOST).
+    These surface parameters are known to depend on both surface and flow properties,
+    yet they are generally estimated as deterministic quantities with no characterization
+    of associated uncertainty. In this study, we use a Bayesian approach to infer
+    surface parameters for MOST and quantify their uncertainties. For the aerodynamic
+    roughness length $z_0$ inferred in isolation, a normal-normal conjugate update
+    yields the posterior and posterior predictive distributions in closed form. We
+    first demonstrate our method on idealized conventionally neutral boundary layers
+    generated by large-eddy simulation, where $z_0$ is prescribed, and quantify how
+    prior- and observation-related choices shape the inferred posterior. We then apply
+    the method to field observations from the Atmospheric Radiation Measurement Southern
+    Great Plains observatory, from which we infer $z_0$ distributions conditioned
+    on month, on wind direction, and on both jointly. By leveraging a prior informed
+    by sample statistics of all near-neutral observations in the training years, we
+    demonstrate the advantage of the Bayesian inference method for $z_0$ relative
+    to the state-of-practice least-squares profile-fitting method in conditions of
+    data sparsity. Predictions for unseen observations-evaluated at the posterior
+    mean-reduce root mean squared error and mean absolute error in data-sparse wind
+    directions, while posterior predictive distributions consistently reduce the continuous
+    ranked probability score by approximately $20$-$30\%$.
+- title: Uncertainty-Aware Symbolic Regression through Bayesian Support Selection
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.04042v2
+  category: inference
+  subcategory: method
+  authors:
+  - Satadeep Bhattacharjee
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The Sure Independence Screening and Sparsifying Operator (SISSO) framework
+    is a powerful symbolic-regression method for extracting compact and interpretable
+    descriptors from large nonlinear feature spaces. However, standard SISSO is deterministic:
+    it returns a single descriptor and point prediction, without quantifying uncertainty
+    in descriptor selection, regression coefficients, or predictions. Here we introduce
+    a probabilistic extension in which the sure independence screening (SIS) stage
+    is kept deterministic to preserve scalability, while the sparsifying operator
+    (SO) stage is reformulated as Bayesian inference over the SIS-screened support
+    space. The resulting deterministic-SIS/Bayesian-SO framework yields posterior
+    probabilities for competing descriptor supports, feature-inclusion probabilities,
+    Bayesian-model-averaged predictions, and predictive credible intervals, while
+    recovering the deterministic SO descriptor of standard SISSO in the maximum-a-posteriori
+    limit. Applied to an $X_2YZ$ Heusler-alloy magnetic-moment dataset, the approach
+    gives modest improvements in five-fold cross-validation RMSE and near-nominal
+    empirical coverage of the 95$\%$ predictive intervals. More importantly, the posterior
+    exposes competing, physically related symbolic descriptor families that would
+    appear artificially unique in a deterministic analysis. These results suggest
+    that deterministic-SIS/Bayesian-SO can be used as an uncertainty-aware diagnostic
+    extension of SISSO: a tool for assessing descriptor confidence, stability, and
+    non-uniqueness in small-data materials regression problems.'
+- title: Active Learning for Gaussian Process Regression Under Self-Induced Boltzmann
+    Weights
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.10654v1
+  category: nonparametric
+  subcategory: method
+  authors:
+  - Jixiang Qing
+  - Henry Moss
+  - Matthias Sachs
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: We consider the active learning problem where the goal is to learn an
+    unknown function with low prediction error under an unknown Boltzmann distribution
+    induced by the function itself. This self-induced weighting arises naturally in
+    problems such as potential energy surface (PES) modeling in computational chemistry,
+    yet poses unique challenges as the target distribution is unknown and its partition
+    function is intractable. We propose \texttt{AB-SID-iVAR}, a Gaussian Process-based
+    acquisition function that approximates the intractable Bayesian target distribution
+    in closed form while avoiding partition function estimation, and is applicable
+    to both discrete and continuous input domains. We also analyze a Thompson sampling
+    alternative (\texttt{TS-SID-iVAR}) as a higher variance Monte Carlo variant. Despite
+    the unknown target, under mild conditions, we establish that the terminal prediction
+    error vanishes with high probability, and provide a tighter average-case guarantee.
+    We demonstrate consistent improvements over existing approaches in this setting
+    on synthetic benchmarks and real-world PES modeling and drug discovery tasks.
+- title: Aitchison Geometry on the Simplex for Uncertainty Quantification in Bayesian
+    Hyperspectral Image Unmixing
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.24108v1
+  category: nonparametric
+  subcategory: method
+  authors:
+  - Hector Blondel
+  - Lucas Drumetz
+  - Thierry Chonavel
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Most algorithms for hyperspectral image unmixing produce point estimates
+    of fractional abundances of the materials to be separated. However, in the absence
+    of reliable ground truth, the ability to perform abundance uncertainty quantification
+    (UQ) should be an important feature of algorithms, e.g. to evaluate how hard the
+    unmixing problem is and how much the results should be trusted. The usual modeling
+    assumptions in Bayesian models for unmixing rely heavily on the Euclidean geometry
+    of the simplex and typically disregard spatial information. In addition, to our
+    knowledge, abundance UQ is close to nonexistent. In this paper, we propose to
+    leverage Aitchinson geometry from the compositional data analysis literature to
+    provide practitioners with alternative tools for modeling prior abundance distributions.
+    In particular we show how to design simplex-valued Gaussian Process priors using
+    this geometry. Then we link Aitchinson geometry to constrained sampling algorithms
+    in the literature, and propose UQ diagnostics that comply with the constraints
+    on abundance vectors. We illustrate these concepts on real and simulated data.
+- title: Dataset Complexity Shapes Finite-Distance Loss Geometry in Neural Networks
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22361v1
+  category: computation
+  subcategory: method
+  authors:
+  - Jaeyong Bae
+  - Hawoong Jeong
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Finite datasets can share the same size and low-order statistics while
+    differing strongly in structural complexity. We connect this dataset complexity
+    to loss-landscape geometry by pairing local label mixing across neighborhood scales
+    with local entropy around trained neural-network solutions. Adapted from the Franz--Parisi
+    construction in spin-glass theory, local entropy measures the effective volume
+    of low-loss, solution-like parameter configurations at each distance from a reference.
+    We estimate it in finite networks using adaptive sequential Monte Carlo. In a
+    controlled synthetic sweep, greater dataset complexity produces a larger decrease
+    in local entropy near the reference. Farther away, its radial derivative becomes
+    weak and nearly common across conditions. Dataset complexity therefore changes
+    where the effective solution volume contracts, rather than making it decrease
+    uniformly faster. Experiments on real image data show the same qualitative trend,
+    with label randomization further amplifying the effect. These results show that
+    dataset structure shapes how low-loss neighborhoods are organized across finite
+    distances from trained solutions.
+- title: Adaptive Multilevel Twisted Sequential Monte Carlo for Rare Events Estimation
+    in Language Models
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.21736v1
+  category: computation
+  subcategory: method
+  authors:
+  - Zixuan Liu
+  - Fangzheng Wu
+  - Brian Summa
+  - Zizhan Zheng
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Rare unsafe behaviors in large language models can remain practically
+    significant even when their probability is extremely small, particularly at deployment
+    scales involving millions or billions of interactions. Twisted Sequential Monte
+    Carlo (SMC) provides a principled framework for rare-event probability estimation
+    by learning twist functions that guide generation toward a target event. However,
+    the standard twist learning framework relies on positive samples from the rare-event
+    target distribution, which may be nearly absent before an informative twist has
+    been learned, resulting in unreliable rare-event estimation. We propose Adaptive
+    Multilevel Twisted SMC, which learns the rare-event twist through a sequence of
+    progressively rarer intermediate events. At each level, the learned twist provides
+    more informative positive examples for learning the next twist, ultimately leading
+    to a more accurate final twist for the target rare event. Experiments across diverse
+    tasks and model scales show that the proposed method produces more accurate rare-event
+    probability estimates. By enabling more reliable discovery of hard-to-observe
+    unsafe behaviors, our method provides a practical tool for strengthening the evaluation
+    and safety alignment of deployed language models.

@@ -3,140 +3,140 @@
   {
    "id": "applications",
    "name": "Applications",
-   "count": 147,
+   "count": 148,
    "trajectory": {
     "2025": 21,
-    "2026": 126
+    "2026": 127
    },
    "momentum": {
     "id": "applications",
     "name": "Applications",
-    "total": 147,
-    "recent": 147,
+    "total": 148,
+    "recent": 148,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 12.2,
+    "papers_per_month": 12.3,
     "score": 100.0
    }
   },
   {
    "id": "computation",
    "name": "Computational Methods",
-   "count": 597,
+   "count": 604,
    "trajectory": {
     "2025": 142,
-    "2026": 455
+    "2026": 462
    },
    "momentum": {
     "id": "computation",
     "name": "Computation",
-    "total": 597,
-    "recent": 597,
+    "total": 604,
+    "recent": 604,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 49.8,
+    "papers_per_month": 50.3,
     "score": 100.0
    }
   },
   {
    "id": "deep-bayesian",
    "name": "Bayesian Deep Learning",
-   "count": 311,
+   "count": 313,
    "trajectory": {
     "2025": 60,
-    "2026": 251
+    "2026": 253
    },
    "momentum": {
     "id": "deep-bayesian",
     "name": "Deep Bayesian",
-    "total": 311,
-    "recent": 311,
+    "total": 313,
+    "recent": 313,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 25.9,
+    "papers_per_month": 26.1,
     "score": 100.0
    }
   },
   {
    "id": "hierarchical",
    "name": "Hierarchical & Multilevel Models",
-   "count": 183,
+   "count": 184,
    "trajectory": {
     "2025": 25,
-    "2026": 158
+    "2026": 159
    },
    "momentum": {
     "id": "hierarchical",
     "name": "Hierarchical",
-    "total": 183,
-    "recent": 183,
+    "total": 184,
+    "recent": 184,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 15.2,
+    "papers_per_month": 15.3,
     "score": 100.0
    }
   },
   {
    "id": "inference",
    "name": "Inference & Posterior Estimation",
-   "count": 462,
+   "count": 468,
    "trajectory": {
     "2025": 88,
-    "2026": 374
+    "2026": 380
    },
    "momentum": {
     "id": "inference",
     "name": "Inference",
-    "total": 462,
-    "recent": 462,
+    "total": 468,
+    "recent": 468,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 38.5,
+    "papers_per_month": 39.0,
     "score": 100.0
    }
   },
   {
    "id": "model-selection",
    "name": "Model Selection & Averaging",
-   "count": 189,
+   "count": 191,
    "trajectory": {
     "2025": 41,
-    "2026": 148
+    "2026": 150
    },
    "momentum": {
     "id": "model-selection",
     "name": "Model Selection",
-    "total": 189,
-    "recent": 189,
+    "total": 191,
+    "recent": 191,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 15.8,
+    "papers_per_month": 15.9,
     "score": 100.0
    }
   },
   {
    "id": "nonparametric",
    "name": "Bayesian Nonparametrics",
-   "count": 142,
+   "count": 144,
    "trajectory": {
     "2025": 40,
-    "2026": 102
+    "2026": 104
    },
    "momentum": {
     "id": "nonparametric",
     "name": "Nonparametric",
-    "total": 142,
-    "recent": 142,
+    "total": 144,
+    "recent": 144,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 11.8,
+    "papers_per_month": 12.0,
     "score": 100.0
    }
   },
@@ -169,7 +169,7 @@
   {
    "id": "development",
    "name": "Development",
-   "count": 147
+   "count": 149
   },
   {
    "id": "evaluation",
@@ -179,7 +179,7 @@
   {
    "id": "method",
    "name": "Method",
-   "count": 1530
+   "count": 1546
   },
   {
    "id": "survey",
@@ -194,7 +194,7 @@
   {
    "id": "theory",
    "name": "Theory",
-   "count": 339
+   "count": 342
   }
  ],
  "timeline": [
@@ -3571,6 +3571,11 @@
   [
    "2026-03",
    "computation",
+   "development"
+  ],
+  [
+   "2026-03",
+   "computation",
    "evaluation"
   ],
   [
@@ -4082,6 +4087,11 @@
    "2026-03",
    "hierarchical",
    "development"
+  ],
+  [
+   "2026-03",
+   "hierarchical",
+   "method"
   ],
   [
    "2026-03",
@@ -4714,6 +4724,11 @@
    "method"
   ],
   [
+   "2026-03",
+   "nonparametric",
+   "method"
+  ],
+  [
    "2026-04",
    "applications",
    "method"
@@ -4852,6 +4867,11 @@
    "2026-04",
    "computation",
    "development"
+  ],
+  [
+   "2026-04",
+   "computation",
+   "method"
   ],
   [
    "2026-04",
@@ -7182,6 +7202,11 @@
    "2026-05",
    "model-selection",
    "theory"
+  ],
+  [
+   "2026-05",
+   "nonparametric",
+   "method"
   ],
   [
    "2026-05",
@@ -8251,6 +8276,21 @@
   [
    "2026-06",
    "inference",
+   "method"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "method"
+  ],
+  [
+   "2026-06",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "inference",
    "theory"
   ],
   [
@@ -8707,6 +8747,11 @@
    "2026-07",
    "computation",
    "application"
+  ],
+  [
+   "2026-07",
+   "computation",
+   "development"
   ],
   [
    "2026-07",
@@ -9816,6 +9861,11 @@
   [
    "2026-08",
    "applications",
+   "method"
+  ],
+  [
+   "2026-08",
+   "applications",
    "theory"
   ],
   [
@@ -9951,7 +10001,22 @@
   [
    "2026-08",
    "computation",
-   "theory"
+   "method"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "method"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "method"
   ],
   [
    "2026-08",
@@ -9962,6 +10027,21 @@
    "2026-08",
    "computation",
    "theory"
+  ],
+  [
+   "2026-08",
+   "computation",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "deep-bayesian",
+   "method"
+  ],
+  [
+   "2026-08",
+   "deep-bayesian",
+   "method"
   ],
   [
    "2026-08",
@@ -10256,7 +10336,7 @@
   [
    "2026-08",
    "inference",
-   "theory"
+   "method"
   ],
   [
    "2026-08",
@@ -10307,6 +10387,31 @@
    "2026-08",
    "inference",
    "theory"
+  ],
+  [
+   "2026-08",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "inference",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "model-selection",
+   "method"
+  ],
+  [
+   "2026-08",
+   "model-selection",
+   "method"
   ],
   [
    "2026-08",
@@ -10469,36 +10574,36 @@
  "keyword_bursts": [
   {
    "keyword": "posterior",
-   "recent": 828,
-   "total": 828,
+   "recent": 834,
+   "total": 834,
    "burst_score": 1.0,
-   "recent_share": 0.4057
+   "recent_share": 0.4045
   },
   {
    "keyword": "prior",
-   "recent": 587,
-   "total": 587,
+   "recent": 591,
+   "total": 591,
    "burst_score": 1.0,
-   "recent_share": 0.2876
+   "recent_share": 0.2866
   },
   {
    "keyword": "uncertainty quantification",
-   "recent": 281,
-   "total": 281,
+   "recent": 283,
+   "total": 283,
    "burst_score": 1.0,
-   "recent_share": 0.1377
+   "recent_share": 0.1372
   },
   {
    "keyword": "variational inference",
-   "recent": 195,
-   "total": 195,
+   "recent": 196,
+   "total": 196,
    "burst_score": 1.0,
-   "recent_share": 0.0955
+   "recent_share": 0.0951
   },
   {
    "keyword": "model selection",
-   "recent": 90,
-   "total": 90,
+   "recent": 91,
+   "total": 91,
    "burst_score": 1.0,
    "recent_share": 0.0441
   },
@@ -10507,28 +10612,28 @@
    "recent": 52,
    "total": 52,
    "burst_score": 1.0,
-   "recent_share": 0.0255
+   "recent_share": 0.0252
   },
   {
    "keyword": "posterior approximation",
    "recent": 35,
    "total": 35,
    "burst_score": 1.0,
-   "recent_share": 0.0171
+   "recent_share": 0.017
   },
   {
    "keyword": "normalizing flow",
-   "recent": 33,
-   "total": 33,
+   "recent": 34,
+   "total": 34,
    "burst_score": 1.0,
-   "recent_share": 0.0162
+   "recent_share": 0.0165
   },
   {
    "keyword": "evidence lower bound",
    "recent": 18,
    "total": 18,
    "burst_score": 1.0,
-   "recent_share": 0.0088
+   "recent_share": 0.0087
   },
   {
    "keyword": "probabilistic programming",
@@ -10542,7 +10647,7 @@
    "recent": 4,
    "total": 4,
    "burst_score": 1.0,
-   "recent_share": 0.002
+   "recent_share": 0.0019
   }
  ]
 }
