@@ -112144,7 +112144,6 @@ papers:
   - Minyoung Kim
   - Timothy Hospedales
   venue: ''
-  code_url: https://github.com/SamsungLabs/BayesDLL
   project_url: ''
   abstract: 'We release a new Bayesian neural network library for PyTorch for large-scale
     deep networks. Our library implements mainstream approximate Bayesian inference
@@ -113879,7 +113878,7 @@ papers:
   - Danielle Van Boxel
   venue: ''
   code_url: ''
-  project_url: https://dvbuntu.github.io/barmpy/}
+  project_url: https://dvbuntu.github.io/barmpy/
   abstract: We make Bayesian Additive Regression Networks (BARN) available as a Python
     package, \texttt{barmpy}, with documentation at \url{https://dvbuntu.github.io/barmpy/}
     for general machine learning practitioners. Our object-oriented design is compatible
@@ -124296,7 +124295,6 @@ papers:
   authors:
   - Ziwen Wang
   venue: ''
-  code_url: https://github.com/ziwenwang28/JojoSCL
   project_url: ''
   abstract: 'Single-cell RNA sequencing (scRNA-seq) has revolutionized our understanding
     of cellular processes by enabling gene expression analysis at the individual cell
