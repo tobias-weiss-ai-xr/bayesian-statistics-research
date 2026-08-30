@@ -19626,7 +19626,6 @@ papers:
   - Kang Liu
   - Qiaozhu Zhai
   venue: ''
-  code_url: https://github.com/pengwei222/OPBO
   project_url: ''
   abstract: Bayesian optimization is an effective method for solving expensive black-box
     optimization problems. Most existing methods use Gaussian processes (GP) as the
@@ -33418,36 +33417,6 @@ papers:
     framework enhances emissions forecasting under data censoring, offering practical
     insights for policymakers, decision makers and modelers.
   venue: Ain Shams Engineering Journal
-- title: Bayesian Estimation of Nonlinear Time Series Models with Real Data Applications
-  date: 2026-03
-  url: https://doi.org/10.54647/mathematics110563
-  category: computation
-  subcategory: method
-  authors:
-  - Nada Hussein Tali
-  abstract: 'Nonlinear time series have become very popular in applied research as
-    they can capture a range of complex dynamic properties, such as volatility clustering,
-    regime shifts and non-Gaussian features that are often present in financial time
-    series. In this paper, a general Bayesian framework for estimation and model comparison
-    of nonlinear time series models in state space form is developed. The presented
-    approach also achieves coolness by summoning the witch''s trinity of flexible
-    model specification, coherent prior modelling and state-of-the-art computational
-    inference techniques: namely, Markov chain Monte Carlo (MCMC) with data augmentation
-    particles and variational methods. To evaluate finite-sample performance at different
-    sample sizes, we carried out an extensive simulation study based on a stochastic
-    volatility data-generating process. The results show that exact Bayesian methods
-    give accurate estimates of parameters, reliable recovery in the latent state,
-    and good calibration of quantification uncertainty, with particle Markov chain
-    Monte Carlo (particle MCMC) performing best for small samples and predictive accuracy.
-    VI is highly efficient computationally, but it systematically underestimates posterior
-    uncertainty. The practical utility of the developed framework is also demonstrated
-    through two real-data applications dealing with financing and count-valued time
-    series. Model fit is assessed through principled Bayesian predictive diagnostics
-    such as one-step cross-validation, information criteria and posterior predictive
-    checks. All in all, the proposed Bayesian formulation provides a generic and consistent
-    methodology to solve both the likelihood-based and prediction problems in nonlinear
-    time-series analysis.'
-  venue: SCIREA Journal of Mathematics
 - title: Convergence analysis of stochastic gradient descent with MCMC estimators
   date: 2026-05
   url: https://doi.org/10.1007/s11425-024-2557-7
@@ -40885,50 +40854,6 @@ papers:
     interventions, enhancing understanding of PD pathophysiology, and providing actionable
     insights for clinical translation and scientific advancement.
   venue: Zenodo (CERN European Organization for Nuclear Research)
-- title: 'A Comprehensive Study of the Bernoulli-Transmuted Geometric Distribution:
-    Theory and Applications'
-  date: 2026-06
-  url: https://doi.org/10.18187/pjsor.v22i2.4783
-  category: applications
-  subcategory: theory
-  authors:
-  - Anupama Nandi
-  - Partha Jyoti Hazarika
-  - Aniket Biswas
-  abstract: This paper presents the BerTG distribution, an innovative three-parameter
-    discrete probability model developed by convolving a Bernoulli random variable
-    with an independently distributed transmuted geometric random variable. The suggested
-    distribution constitutes a significant and adaptable generalization that en- compasses
-    various established count distributions as specific instances, thereby offering
-    a cohesive framework for modeling a range of count data formats. The BerTG distribution
-    is notable for its exceptional ability to handle many types of dispersion, including
-    as overdispersion, underdispersion, and equidispersion, com- monly found in real-world
-    count data, thereby overcoming a significant weakness of numerous conventional
-    discrete models. A thorough examination of the distributional and structural characteristics
-    of the BerTG model is conducted, including the probability mass function, cumulative
-    distribution function, moments, moment generating function, factorial moments,
-    probability generating function, and index of dispersion, among other aspects.
-    Special emphasis is placed on reliability-theoretic attributes, encompassing the
-    hazard rate function, survival function, reverse hazard rate function, and conditional
-    expectation, which are metic- ulously generated and examined. Additionally, essential
-    actuarial metrics, including the stop-loss premium, value-at-risk, and tail value-at-risk,
-    are analysed to illustrate the model’s appropriateness for risk-theoretic applications.
-    Model parameters are estimated by maximum likelihood estimation, and the asymptotic
-    prop- erties of the resultant estimators are determined. A comprehensive simulation
-    analysis is performed to assess the finite-sample performance of the estimators
-    concerning bias, mean squared error, and consistency across diverse parameter
-    configurations and sample sizes, thereby validating the reliability and accuracy
-    of the estimation technique. The practical applicability of the BerTG distribution
-    is evidenced through real-world data applications, wherein the model is applied
-    to several empirical count datasets displaying diverse dispersion traits. Comparative
-    analyses with various competing discrete distributions demonstrate that the BerTG
-    model consistently attains superior goodness-of-fit performance, as indicated
-    by standard model selection criteria such as the Akaike information criterion,
-    Bayesian information criterion, and chi- square goodness-of-fit statistics. The
-    results combined demonstrate that the BerTG distribution is a very competitive,
-    manageable, and adaptable instrument for the statistical modelling of count data
-    across several applicable fields.
-  venue: Pakistan Journal of Statistics and Operation Research
 - title: The “State of the Art” in MR Image Reconstruction? Knowledge, Culture, and
     What We Leave Behind in An Era of Big Data and Machine Learning
   date: 2026-04
@@ -47322,7 +47247,7 @@ papers:
 - title: 'Advancements in structure learning of undirected graphical models: from
     novel specifications to Bayesian and variational inference'
   date: 2026-04
-  url: https://amsdottorato.unibo.it/view/dottorati/DOT526/>,
+  url: https://amsdottorato.unibo.it/view/dottorati/DOT526/
   category: inference
   subcategory: theory
   authors:
@@ -69714,31 +69639,6 @@ papers:
     robustness. Besides, the posterior predictive mean was shown to be a good estimator
     for the observed properties.
   venue: Energy & Fuels
-- title: Semiparametric Estimation of the Shape of the Limiting Bivariate Point Cloud
-  date: 2025-01
-  url: https://doi.org/10.1214/25-ba1514
-  category: inference
-  subcategory: theory
-  authors:
-  - Reetam Majumder
-  - Benjamin A. Shaby
-  - Brian J. Reich
-  abstract: We propose a model to flexibly estimate joint tail properties by exploiting
-    the convergence of an appropriately scaled point cloud onto a compact limit set.
-    Characteristics of the shape of the limit set correspond to key tail dependence
-    properties. We directly model the shape of the limit set using Bézier splines,
-    which allow flexible and parsimonious specification of shapes in two dimensions.
-    We fit the Bézier splines to data in pseudo-polar coordinates using Markov chain
-    Monte Carlo sampling, utilizing a limiting approximation to the conditional likelihood
-    of the radii given angles. We propose a novel prior on the shape of the limit
-    set via constraints on the paramters of the Bézier splines. A direct advantage
-    of our Bayesian approach is that the support of this prior guarantees that each
-    posterior sample is a valid limit set boundary, allowing direct posterior analysis
-    of any quantity derived from the shape of the curve. Furthermore, we obtain interpretable
-    inference on the asymptotic dependence class by using mixture priors with point
-    masses on the corner of the unit box. Finally, we apply our model to bivariate
-    datasets of extremes of variables related to fire risk and air pollution.
-  venue: Bayesian Analysis
 - title: Bayesian inference and impact of parameter prior specification in flexible
     multilevel nonlinear models in the context of infectious disease modeling
   date: 2025-01
@@ -75631,31 +75531,6 @@ papers:
   - Sara Wade
   abstract: ''
   venue: Lecture notes in computer science
-- title: Sample size determination when the parameter of interest is the coefficient
-    of variation under normality for the data
-  date: 2024-06
-  url: https://doi.org/10.18187/pjsor.v20i2.4240
-  category: computation
-  subcategory: theory
-  authors:
-  - Jorge Alberto Achcar
-  - Emerson Barili
-  abstract: This study considers classical and Bayesian inference approaches for the
-    coefficient of variation under normality for the data, especially on the determination
-    of the sample size of a random sample needed in a second stage of an experiment.
-    This topic has been explored by many authors in the last decades. The first goal
-    of the study is to present simple formulations to get the inferences of interest
-    for the coefficient of variation under normality and usual frequentist approach
-    based on the asymptotic normality of the maximum likelihood estimators for the
-    mean and standard deviation of the normal distribution and using the delta method
-    to get the inferences of interest for the coefficient of variation. Simple hypothesis
-    tests and determination of the sample size are discussed under the frequentist
-    approach.The second goal of the study is to present a sample size determination
-    under a Bayesian approach, where it is assumed a Jeffreys non-informative prior
-    distribution of the parameters of the normal distribution assumed for the data
-    and using standard Markov Chain Monte Carlo (MCMC) methods to get the posterior
-    summaries of interest.
-  venue: Pakistan Journal of Statistics and Operation Research
 - title: 'Applying Bayesian statistics and MCMC to ozone reaction kinetics: Implications
     for water treatment models'
   date: 2025-01
@@ -82136,32 +82011,6 @@ papers:
   - Vitaliy G. Goncharov
   abstract: ''
   venue: Journal of Molecular Liquids
-- title: Comparing Support Vector Machine and Naïve Bayes Methods with A Selection
-    of Fast Correlation Based Filter Features in Detecting Parkinson's Disease
-  date: 2023-11
-  url: https://doi.org/10.24843/lkjiti.2023.v14.i02.p02
-  category: model-selection
-  subcategory: method
-  authors:
-  - Yuniar Farida
-  - Nurissaidah Ulinnuha
-  - Silvia Kartika Sari
-  abstract: Dopamine levels fall due to brain nerve cell destruction, producing Parkinson's
-    symptoms. Humans with this illness experience central nervous system damage, which
-    lowers the quality of life. This disease is not deadly, but when people's quality
-    of life decreases, they cannot perform daily activities as people do. Even in
-    one case, this disease can cause death indirectly. Contrast support vector machines
-    (SVM) and naive Bayesian approaches with and without fast correlation-based filter
-    (FCBF) feature selection, this study attempts to determine the optimum model to
-    detect Parkinson's disease categorization. In this study, datasets from the UCI
-    Machine Learning Repository are used. The results showed that SVM with FCBF achieved
-    the highest accuracy among all the models tested. SVM with FCBF provides an accuracy
-    of 86.1538%, sensitivity of 93.8775%, and specificity of 62.5000%. Both methods,
-    SVM and Naive Bayes, have improved in performance due to FCBF, with SVM showing
-    a more significant increase in accuracy. This research contributed to helping
-    paramedics determine if a patient has Parkinson's disease or not using characteristics
-    obtained from data, such as movement, sound, or other pertinent factors.
-  venue: Lontar Komputer Jurnal Ilmiah Teknologi Informasi
 - title: A model‐based hypothesis framework to define and estimate the diel niche
     via the ‘Diel.Niche’ R package
   date: 2024-01
@@ -105652,42 +105501,6 @@ papers:
   - Dhirendra Pratap Singh
   abstract: ''
   venue: Multimedia Tools and Applications
-- title: 'Censored and Uncensored Nikulin-Rao-Robson Distributional Validation: Characterizations,
-    Classical and Bayesian estimation with Censored and Uncensored Applications'
-  date: 2024-03
-  url: https://doi.org/10.18187/pjsor.v20i1.4216
-  category: applications
-  subcategory: method
-  authors:
-  - Wahid A. M. Shehata
-  - Hafida Goual
-  - Talhi Hamida
-  abstract: 'In our paper, we introduce a novel extension of the Lomax distribution,
-    aiming to enhance its applicability in various contexts. We emphasize a pragmatic
-    approach in deriving mathematical properties of the new distribution, prioritizing
-    its practical implications. Three distinct methods for characterizing the distribution
-    are thoroughly discussed to provide a comprehensive understanding. The parameters
-    of this newly proposed distribution are estimated through a diverse set of classical
-    methodologies as well as Bayes’ method. Additionally, we develop the censored
-    case maximum likelihood method to address scenarios where data may be incomplete.
-    We meticulously compare the efficacy of likelihood estimation and Bayesian estimation
-    using Pitman’s proximity criterion, thereby offering insights into their relative
-    performance. For Bayesian estimation, we employ three distinct loss functions:
-    the generalized quadratic, the Linex, and the entropy functions, each offering
-    unique perspectives on the estimation process. Through extensive simulation experiments,
-    we meticulously evaluate the performance of all estimation methods under various
-    conditions, providing valuable insights into their practical utility. Furthermore,
-    we conduct a comparative analysis between the Bayesian technique and the censored
-    maximum likelihood method using the BB algorithm, facilitating a nuanced understanding
-    of their respective strengths and weaknesses. In addition to estimation methodologies,
-    we delve into the construction of the Nikulin-Rao-Robson statistic for the new
-    model under both uncensored and censored cases. Detailed simulation studies and
-    the presentation of two real-world applications elucidate the practical significance
-    of our proposed statistics in diverse scenarios. Overall, our paper not only introduces
-    a novel extension of the Lomax distribution but also provides a comprehensive
-    exploration of various estimation techniques and statistical measures, underpinning
-    its practical relevance across different domains.'
-  venue: Pakistan Journal of Statistics and Operation Research
 - title: 'A New Versatile Discrete Distribution for Censored Data: Frequentist and
     Bayesian Methods With Real-Life Applications'
   date: 2025-01
