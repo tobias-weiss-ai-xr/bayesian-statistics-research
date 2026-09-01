@@ -10,7 +10,7 @@ topic:
   name: "Bayesian Statistics"
   short: "bayesian-statistics"
   description: "Bayesian inference, computation, prior modeling, model selection, hierarchical and nonparametric Bayes, Bayesian deep learning, and applications."
-  openalex_mailto: "research@tobias-weiss-ai-xr.de"
+  openalex_mailto: "tobias@tobias-weiss.org"
 
 # ── Taxonomy ─────────────────────────────────────────────────────────────────
 taxonomy:
