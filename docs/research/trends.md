@@ -1,42 +1,42 @@
 # Trends (12-Month View)
 
-**Generated:** 2026-08-15  
-**Window:** since 2025-08 — 1429 of 1429 papers
+**Generated:** 2026-11-09  
+**Window:** since 2025-11 — 2721 of 5051 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
-| posterior | 578 | 578 | 1.0× |
-| prior | 430 | 430 | 1.0× |
-| uncertainty quantification | 191 | 191 | 1.0× |
-| variational inference | 149 | 149 | 1.0× |
-| model selection | 70 | 70 | 1.0× |
-| hierarchical model | 42 | 42 | 1.0× |
-| posterior approximation | 25 | 25 | 1.0× |
-| normalizing flow | 24 | 24 | 1.0× |
-| evidence lower bound | 16 | 16 | 1.0× |
-| probabilistic programming | 15 | 15 | 1.0× |
-| conjugate prior | 4 | 4 | 1.0× |
+| posterior approximation | 46 | 75 | 1.1× |
+| evidence lower bound | 23 | 38 | 1.1× |
+| posterior | 1081 | 1965 | 1.0× |
+| prior | 789 | 1406 | 1.0× |
+| uncertainty quantification | 337 | 624 | 1.0× |
+| model selection | 110 | 213 | 1.0× |
+| hierarchical model | 74 | 141 | 1.0× |
+| normalizing flow | 40 | 80 | 0.9× |
+| variational inference | 212 | 471 | 0.8× |
+| conjugate prior | 10 | 25 | 0.7× |
+| probabilistic programming | 17 | 53 | 0.6× |
 
 ## 📈 Fastest-Growing Cells
 
 | Cell | Recent | Total | Recent Share |
 |------|--------|-------|--------------|
-| `inference/theory` | 104 | 104 | 100% |
-| `computation/method` | 281 | 281 | 100% |
-| `deep-bayesian/method` | 179 | 179 | 100% |
-| `model-selection/method` | 108 | 108 | 100% |
-| `hierarchical/method` | 112 | 112 | 100% |
-| `computation/development` | 103 | 103 | 100% |
-| `inference/method` | 200 | 200 | 100% |
-| `applications/method` | 96 | 96 | 100% |
-| `nonparametric/method` | 101 | 101 | 100% |
-| `inference/application` | 2 | 2 | 100% |
-| `inference/evaluation` | 1 | 1 | 100% |
-| `inference/development` | 1 | 1 | 100% |
-| `inference/systems` | 1 | 1 | 100% |
-| `computation/theory` | 30 | 30 | 100% |
+| `deep-bayesian/development` | 1 | 1 | 100% |
+| `hierarchical/survey` | 2 | 2 | 100% |
+| `applications/systems` | 1 | 1 | 100% |
+| `computation/survey` | 1 | 1 | 100% |
+| `hierarchical/evaluation` | 1 | 1 | 100% |
 | `computation/application` | 1 | 1 | 100% |
+| `hierarchical/systems` | 5 | 6 | 83% |
+| `hierarchical/development` | 5 | 7 | 71% |
+| `inference/evaluation` | 2 | 3 | 67% |
+| `computation/evaluation` | 2 | 3 | 67% |
+| `model-selection/application` | 2 | 3 | 67% |
+| `applications/method` | 200 | 312 | 64% |
+| `computation/method` | 544 | 869 | 63% |
+| `computation/development` | 175 | 278 | 63% |
+| `hierarchical/method` | 203 | 335 | 61% |
 
 Regenerate with `python3 tools/trend_scanner.py --months 12`.

@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-08-15  
-**Corpus:** 1,429 papers across 8 categories
+**Generated:** 2026-11-09  
+**Corpus:** 5,051 papers across 9 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Computational Methods | 415 |
-| 2 | Inference & Posterior Estimation | 309 |
-| 3 | Bayesian Deep Learning | 206 |
-| 4 | Hierarchical & Multilevel Models | 138 |
-| 5 | Model Selection & Averaging | 136 |
-| 6 | Applications | 109 |
-| 7 | Bayesian Nonparametrics | 106 |
-| 8 | Prior Specification & Elicitation | 10 |
+| 1 | Inference & Posterior Estimation | 1309 |
+| 2 | Computational Methods | 1281 |
+| 3 | Bayesian Deep Learning | 933 |
+| 4 | Hierarchical & Multilevel Models | 409 |
+| 5 | Model Selection & Averaging | 405 |
+| 6 | Applications | 373 |
+| 7 | Bayesian Nonparametrics | 300 |
+| 8 | Prior Specification & Elicitation | 31 |
 
-**Time span:** 2025–2026 (median year 2026)
-**Dominant aspects:** Method (1081), Theory (225), Development (107)
+**Time span:** 1972–2026 (median year 2009)
+**Dominant aspects:** Method (3663), Theory (981), Development (296)
 
 ---
 
@@ -29,14 +29,15 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Applications | 109 | 109 | 0 | — | 100% | 9.1 |
-| Computation | 415 | 415 | 0 | — | 100% | 34.6 |
-| Deep Bayesian | 206 | 206 | 0 | — | 100% | 17.2 |
-| Hierarchical | 138 | 138 | 0 | — | 100% | 11.5 |
-| Inference | 309 | 309 | 0 | — | 100% | 25.8 |
-| Model Selection | 136 | 136 | 0 | — | 100% | 11.3 |
-| Nonparametric | 106 | 106 | 0 | — | 100% | 8.8 |
-| Priors | 10 | 10 | 0 | — | 100% | 0.8 |
+| Computation | 1281 | 782 | 275 | +184% | 61% | 65.2 |
+| Applications | 373 | 227 | 90 | +152% | 61% | 18.9 |
+| Hierarchical | 409 | 244 | 102 | +139% | 60% | 20.3 |
+| Priors | 31 | 17 | 7 | +143% | 55% | 1.4 |
+| Model Selection | 405 | 227 | 98 | +132% | 56% | 18.9 |
+| Nonparametric | 300 | 159 | 73 | +118% | 53% | 13.2 |
+| Inference | 1309 | 656 | 324 | +102% | 50% | 54.7 |
+| Deep Bayesian | 933 | 409 | 281 | +46% | 44% | 34.1 |
+| Survey | 10 | 0 | 0 | — | 0% | 0.0 |
 
 ---
 
@@ -44,113 +45,125 @@
 
 | Cell | Papers |
 |------|--------:|
-| `inference/evaluation` | 1 |
-| `inference/development` | 1 |
-| `inference/systems` | 1 |
+| `deep-bayesian/development` | 1 |
+| `applications/survey` | 1 |
+| `applications/systems` | 1 |
+| `computation/survey` | 1 |
+| `hierarchical/evaluation` | 1 |
 | `computation/application` | 1 |
-| `hierarchical/application` | 1 |
-| `deep-bayesian/survey` | 1 |
-| `inference/application` | 2 |
-| `model-selection/evaluation` | 2 |
+| `inference/experiment` | 1 |
+| `deep-bayesian/survey` | 2 |
 
 ---
 
 
 ## Category Insights
 
-### Computational Methods (`computation`)
+### Inference & Posterior Estimation (`inference`)
 
-**Corpus size:** 415 papers
+**Corpus size:** 1309 papers
 
 **Recent papers:**
 
-- [2026-08] Variational Inference Using a Differentiable Multigrid Linear Solver — https://arxiv.org/abs/2608.00760
-- [2026-08] Robust Surrogate-Based Bayesian Inference via Sampling-Based Adaptive Active Learning (SALE) — https://arxiv.org/abs/2608.00841
-- [2026-08] Optimal Designs in Multicomponent Stress Strength Reliability for the Unit Generalized Rayleigh — https://arxiv.org/abs/2608.06214
+- [2026-11] Bayesian Filters via the Stochastic Category — https://arxiv.org/abs/2611.03830v1
+- [2026-11] Bayesian Tensor Train Kernel Machines with Automatic Model Complexity Inference — https://arxiv.org/abs/2611.07129v1
+- [2026-11] Calibrating your confidence requires thinking of all the ways you could be wrong — https://arxiv.org/abs/2611.08997v1
 
 ---
 
-### Inference & Posterior Estimation (`inference`)
+### Computational Methods (`computation`)
 
-**Corpus size:** 309 papers
+**Corpus size:** 1281 papers
 
 **Recent papers:**
 
-- [2026-08] Verifiable Regularity Criterion for Conditional Expectation Operators and Conditional Mean Embe — https://arxiv.org/abs/2608.06155
-- [2026-08] Recursive Gaussian Processes and the Bayesian Brain — https://arxiv.org/abs/2608.00503
-- [2026-08] Private Generative Bootstrap via Blocking — https://arxiv.org/abs/2608.02480
+- [2026-11] Accelerating reaction network identification via frequency-domain analysis — https://arxiv.org/abs/2611.07684v1
+- [2026-11] bacontrees: An extensible framework for Bayesian Context Trees in R — https://arxiv.org/abs/2611.03408v1
+- [2026-11] Bagel: A Fast Bayesian Online Changepoint Detection Algorithm for Linear Models via Posterior M — https://arxiv.org/abs/2611.03230v1
 
 ---
 
 ### Bayesian Deep Learning (`deep-bayesian`)
 
-**Corpus size:** 206 papers
+**Corpus size:** 933 papers
 
 **Recent papers:**
 
-- [2026-08] Uncertainty-Aware Deep Learning for Genomics Applications: Insights from an Empirical Study — https://arxiv.org/abs/2608.11054
-- [2026-08] The Bayesian Reflex: A Predictive Coding Engine for Artificial Intelligence — https://arxiv.org/abs/2608.00492
-- [2026-08] Scaling Limits for Ising Models on Inhomogeneous Random Graphs and Applications — https://arxiv.org/abs/2608.12804
+- [2026-11] Bayesian Sequential Optimal Experimental Design for Single-Pixel Imaging using Reinforcement Le — https://arxiv.org/abs/2611.03042v1
+- [2026-10] A deep learning approach to member identification and mass estimation in galaxy clusters — https://arxiv.org/abs/2610.39546v1
+- [2026-10] A Unified Framework for Bayesian Data Assimilation with Generative Models and Observation Inter — https://arxiv.org/abs/2610.03396v1
 
 ---
 
 ### Hierarchical & Multilevel Models (`hierarchical`)
 
-**Corpus size:** 138 papers
+**Corpus size:** 409 papers
 
 **Recent papers:**
 
-- [2026-08] SpikeRestormer: Towards Energy-Efficient All-in-One Image Restoration via Unified Event Reasoni — https://arxiv.org/abs/2608.02290
-- [2026-08] Soft-Noncrossing Bayesian Panel Quantile Regression for Measuring Climate Tail Risk — https://arxiv.org/abs/2608.04664
-- [2026-08] Small Area Bayesian Dynamic Borrowing: Adaptive Subgroup Estimation for Large-Scale Educational — https://arxiv.org/abs/2608.07708
+- [2026-10] A "universal" supernova efficiency to drive the HI turbulence in nearby star-forming galaxies — https://arxiv.org/abs/2610.10698v1
+- [2026-10] A Bayesian multilevel path model of college students' pickleball participation motivation: Theo — https://doi.org/10.1016/j.actpsy.2026.107741
+- [2026-10] MemTrial: Learning When to Trust Memory in LLM Portfolio Agents — https://arxiv.org/abs/2610.11732v1
 
 ---
 
 ### Model Selection & Averaging (`model-selection`)
 
-**Corpus size:** 136 papers
+**Corpus size:** 405 papers
 
 **Recent papers:**
 
-- [2026-08] Structured Dimension-Matched Joint Variational Transdimensional Inference — https://arxiv.org/abs/2608.05607
-- [2026-08] Bayesian Inference Procedures for A/B Testing: An Overview — https://arxiv.org/abs/2608.12949
-- [2026-08] BayesSplineUR: Bayesian Unit Root Test for AR(1) Model with Trend Approximated by Linear Spline — https://doi.org/10.32614/cran.package.bayessplineur
+- [2026-10] Calibration Assessment for Nested Uncertainty Sets — https://arxiv.org/abs/2610.04790v1
+- [2026-10] Detecting multiple planets in Gaia data using Bayesian model selection — https://arxiv.org/abs/2610.07149v1
+- [2026-10] Evidence for orbital eccentricity supports a hierarchical origin for GW231123 — https://arxiv.org/abs/2610.12205v1
 
 ---
 
 ### Applications (`applications`)
 
-**Corpus size:** 109 papers
+**Corpus size:** 373 papers
 
 **Recent papers:**
 
-- [2026-08] High-dimensional Multi-objective Bayesian Optimization with Learned Variable Interactions — https://arxiv.org/abs/2608.11713
-- [2026-08] Can Bayesian Optimization Efficiently Find a Strong Single Expert in Neural Thickets? — https://arxiv.org/abs/2608.10867
-- [2026-08] Battery Storage Co-Optimization in Day-Ahead and Real-Time Markets with Bayesian Optimization — https://arxiv.org/abs/2608.00911
+- [2026-10] A Graph-informed Kriging model for sample-efficient Bayesian optimization of wind farm layouts — https://arxiv.org/abs/2610.35975v1
+- [2026-10] A Latent Space Optimization Approach for Symbolic Discovery of Dynamical Models — https://arxiv.org/abs/2610.11059v1
+- [2026-10] A Simulation-Driven Digital Workflow Integrating Bayesian Optimization for Early-Stage Process  — https://arxiv.org/abs/2611.03673v1
 
 ---
 
 ### Bayesian Nonparametrics (`nonparametric`)
 
-**Corpus size:** 106 papers
+**Corpus size:** 300 papers
 
 **Recent papers:**
 
-- [2026-08] Finding the Needle in a Haystack: Test-Time Analog Circuit Representation Adaptation for Bayesi — https://arxiv.org/abs/2608.12687
-- [2026-08] Bayesian ACCESS for Understanding Latent Epidemic Trajectories from Publicly Released Suppresse — https://arxiv.org/abs/2608.09103
-- [2026-08] A Bayesian Proof of the Bernoulli Theorem — https://arxiv.org/abs/2608.11031
+- [2026-10] Enhancing the Interpretability of Radial Velocity Analysis Using Leave-one-out Cross-validation — https://arxiv.org/abs/2610.07181v1
+- [2026-10] Physics-Guided Bayesian Optimization for High-Dimensional Mixed-Variable MIMO Base Station Desi — https://arxiv.org/abs/2610.00974v1
+- [2026-10] SPECULATE: A synthetic spectral library, emulator and fitting package for accretion disc winds  — https://arxiv.org/abs/2610.07364v1
 
 ---
 
 ### Prior Specification & Elicitation (`priors`)
 
+**Corpus size:** 31 papers
+
+**Recent papers:**
+
+- [2026-07] estimateW: a Bayesian R package for estimating spatial weight matrices, with an application to  — https://doi.org/10.1007/s10663-026-09697-z
+- [2026-07] Posterior Ramifications of Prior Dependence Structures — https://arxiv.org/abs/2312.06437
+- [2026-07] Rationale and guidance for implementing the continual reassessment method for dose-finding in c — https://doi.org/10.64898/2026.07.16.26358128
+
+---
+
+### Surveys & Tutorials (`survey`)
+
 **Corpus size:** 10 papers
 
 **Recent papers:**
 
-- [2026-07] Posterior Ramifications of Prior Dependence Structures — https://arxiv.org/abs/2312.06437
-- [2026-07] estimateW: a Bayesian R package for estimating spatial weight matrices, with an application to  — https://doi.org/10.1007/s10663-026-09697-z
-- [2026-07] Rationale and guidance for implementing the continual reassessment method for dose-finding in c — https://doi.org/10.64898/2026.07.16.26358128
+- [2023-04] Deriving Priors for Bayesian Prediction of Daily Response Propensity in Responsive Survey Desig — https://doi.org/10.1093/jssam/smab036
+- [2010-08] Bayesian analysis for outliers in survey sampling — https://doi.org/10.1016/j.csda.2010.02.021
+- [2009-01] Bayesian Developments in Survey Sampling — https://doi.org/10.1016/s0169-7161(09)00229-6
 
 ---
 
