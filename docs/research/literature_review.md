@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-11-09  
-**Corpus:** 5,051 papers across 9 categories
+**Generated:** 2026-11-19  
+**Corpus:** 5,418 papers across 9 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Inference & Posterior Estimation | 1309 |
-| 2 | Computational Methods | 1281 |
-| 3 | Bayesian Deep Learning | 933 |
-| 4 | Hierarchical & Multilevel Models | 409 |
-| 5 | Model Selection & Averaging | 405 |
-| 6 | Applications | 373 |
-| 7 | Bayesian Nonparametrics | 300 |
+| 1 | Inference & Posterior Estimation | 1428 |
+| 2 | Computational Methods | 1354 |
+| 3 | Bayesian Deep Learning | 996 |
+| 4 | Hierarchical & Multilevel Models | 437 |
+| 5 | Model Selection & Averaging | 435 |
+| 6 | Applications | 402 |
+| 7 | Bayesian Nonparametrics | 325 |
 | 8 | Prior Specification & Elicitation | 31 |
 
 **Time span:** 1972–2026 (median year 2009)
-**Dominant aspects:** Method (3663), Theory (981), Development (296)
+**Dominant aspects:** Method (3966), Theory (1028), Development (310)
 
 ---
 
@@ -29,14 +29,14 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Computation | 1281 | 782 | 275 | +184% | 61% | 65.2 |
-| Applications | 373 | 227 | 90 | +152% | 61% | 18.9 |
-| Hierarchical | 409 | 244 | 102 | +139% | 60% | 20.3 |
+| Computation | 1354 | 855 | 275 | +211% | 63% | 71.2 |
+| Applications | 402 | 256 | 90 | +184% | 64% | 21.3 |
+| Hierarchical | 437 | 272 | 102 | +167% | 62% | 22.7 |
+| Model Selection | 435 | 257 | 98 | +162% | 59% | 21.4 |
+| Nonparametric | 325 | 184 | 73 | +152% | 57% | 15.3 |
 | Priors | 31 | 17 | 7 | +143% | 55% | 1.4 |
-| Model Selection | 405 | 227 | 98 | +132% | 56% | 18.9 |
-| Nonparametric | 300 | 159 | 73 | +118% | 53% | 13.2 |
-| Inference | 1309 | 656 | 324 | +102% | 50% | 54.7 |
-| Deep Bayesian | 933 | 409 | 281 | +46% | 44% | 34.1 |
+| Inference | 1428 | 775 | 324 | +139% | 54% | 64.6 |
+| Deep Bayesian | 996 | 472 | 281 | +68% | 47% | 39.3 |
 | Survey | 10 | 0 | 0 | — | 0% | 0.0 |
 
 ---
@@ -61,7 +61,7 @@
 
 ### Inference & Posterior Estimation (`inference`)
 
-**Corpus size:** 1309 papers
+**Corpus size:** 1428 papers
 
 **Recent papers:**
 
@@ -73,7 +73,7 @@
 
 ### Computational Methods (`computation`)
 
-**Corpus size:** 1281 papers
+**Corpus size:** 1354 papers
 
 **Recent papers:**
 
@@ -85,61 +85,61 @@
 
 ### Bayesian Deep Learning (`deep-bayesian`)
 
-**Corpus size:** 933 papers
+**Corpus size:** 996 papers
 
 **Recent papers:**
 
 - [2026-11] Bayesian Sequential Optimal Experimental Design for Single-Pixel Imaging using Reinforcement Le — https://arxiv.org/abs/2611.03042v1
-- [2026-10] A deep learning approach to member identification and mass estimation in galaxy clusters — https://arxiv.org/abs/2610.39546v1
-- [2026-10] A Unified Framework for Bayesian Data Assimilation with Generative Models and Observation Inter — https://arxiv.org/abs/2610.03396v1
+- [2026-11] Scalable Bayesian Optimization for Efficient Exploration of Moire Patterns — https://arxiv.org/abs/2611.12010v1
+- [2026-11] From Data to Wisdom: Rethinking AI Through an Epistemic Lens — https://arxiv.org/abs/2611.16726v1
 
 ---
 
 ### Hierarchical & Multilevel Models (`hierarchical`)
 
-**Corpus size:** 409 papers
+**Corpus size:** 437 papers
 
 **Recent papers:**
 
-- [2026-10] A "universal" supernova efficiency to drive the HI turbulence in nearby star-forming galaxies — https://arxiv.org/abs/2610.10698v1
-- [2026-10] A Bayesian multilevel path model of college students' pickleball participation motivation: Theo — https://doi.org/10.1016/j.actpsy.2026.107741
-- [2026-10] MemTrial: Learning When to Trust Memory in LLM Portfolio Agents — https://arxiv.org/abs/2610.11732v1
+- [2026-11] An Information-Theoretic Perspective on Spectral Reconstruction in Lattice QCD — https://arxiv.org/abs/2611.10671v1
+- [2026-11] A Hierarchical View of Ecological Encounters — https://arxiv.org/abs/2611.13466v1
+- [2026-11] Gravitational-Wave Microlensing as a Probe of Compact Object Population — https://arxiv.org/abs/2611.05947v1
 
 ---
 
 ### Model Selection & Averaging (`model-selection`)
 
-**Corpus size:** 405 papers
+**Corpus size:** 435 papers
 
 **Recent papers:**
 
-- [2026-10] Calibration Assessment for Nested Uncertainty Sets — https://arxiv.org/abs/2610.04790v1
-- [2026-10] Detecting multiple planets in Gaia data using Bayesian model selection — https://arxiv.org/abs/2610.07149v1
-- [2026-10] Evidence for orbital eccentricity supports a hierarchical origin for GW231123 — https://arxiv.org/abs/2610.12205v1
+- [2026-11] Bayesian and frequentist constraints on dark energy parameterizations using non-CMB data — https://arxiv.org/abs/2611.01505v1
+- [2026-11] Prior Probabilities for Constrained Hypotheses: Invariance, Neutrality, and Model Search — https://arxiv.org/abs/2611.13781v1
+- [2026-11] GW230729\_082317 and GW231118\_005626: A Candidate of Hierarchical Triple Mergers — https://arxiv.org/abs/2611.09338v1
 
 ---
 
 ### Applications (`applications`)
 
-**Corpus size:** 373 papers
+**Corpus size:** 402 papers
 
 **Recent papers:**
 
-- [2026-10] A Graph-informed Kriging model for sample-efficient Bayesian optimization of wind farm layouts — https://arxiv.org/abs/2610.35975v1
-- [2026-10] A Latent Space Optimization Approach for Symbolic Discovery of Dynamical Models — https://arxiv.org/abs/2610.11059v1
-- [2026-10] A Simulation-Driven Digital Workflow Integrating Bayesian Optimization for Early-Stage Process  — https://arxiv.org/abs/2611.03673v1
+- [2026-11] Physics-informed Bayesian optimization of high-order harmonic generation in gases — https://arxiv.org/abs/2611.14119v1
+- [2026-11] Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design — https://arxiv.org/abs/2611.13565v1
+- [2026-11] Bayesian-optimized magnetic-field-gradient sensing with a spin-orbit-coupled Bose-Einstein cond — https://arxiv.org/abs/2611.04719v2
 
 ---
 
 ### Bayesian Nonparametrics (`nonparametric`)
 
-**Corpus size:** 300 papers
+**Corpus size:** 325 papers
 
 **Recent papers:**
 
-- [2026-10] Enhancing the Interpretability of Radial Velocity Analysis Using Leave-one-out Cross-validation — https://arxiv.org/abs/2610.07181v1
-- [2026-10] Physics-Guided Bayesian Optimization for High-Dimensional Mixed-Variable MIMO Base Station Desi — https://arxiv.org/abs/2610.00974v1
-- [2026-10] SPECULATE: A synthetic spectral library, emulator and fitting package for accretion disc winds  — https://arxiv.org/abs/2610.07364v1
+- [2026-11] Species sampling priors through exact augmentation — https://arxiv.org/abs/2611.13323v1
+- [2026-11] Bayesian Wombling for Tracking Invasive Species — https://arxiv.org/abs/2611.10871v1
+- [2026-11] Out-of-the-Box Tabular Foundation Models for Bayesian Optimization in Materials Discovery — https://arxiv.org/abs/2611.12491v1
 
 ---
 

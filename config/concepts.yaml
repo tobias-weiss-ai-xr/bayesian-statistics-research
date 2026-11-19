@@ -1,4 +1,4 @@
-# Curated concept seeds for THIS research corpus.
+# Curated concept seeds for Bayesian Statistics research corpus.
 # Optional: repo-specific important concepts/ideas, added on top of the
 # taxonomy categories (associated structurally) and the statistically-mined
 # emergent bigrams. Leave empty to rely on taxonomy + emergent terms only.
@@ -6,27 +6,173 @@
 # tools/relate_concepts.py and tools/analyze_concept_graph.py as-is; only
 # papers.yaml is required.
 #
-# This skeleton ships with a generic research-methods seed set so the
-# selective concept graph (config/extraction.yaml: mode=selective) has a
-# meaningful curated layer on top of the taxonomy backbone.
+# Bayesian-specific concepts for selective mode (config/extraction.yaml: mode=selective)
+# These provide a clean, high-signal concept graph driven by the curated concept list.
+
 concepts:
+  # Core Bayesian concepts
+  - Bayesian inference
+  - posterior distribution
+  - prior distribution
+  - likelihood
+  - Bayes theorem
+  - Bayesian network
+  - conjugate prior
+  - posterior predictive
+  - Bayesian model comparison
+  - Bayes factor
+  - evidence
+  - marginal likelihood
+  
+  # Computational methods
+  - Markov chain Monte Carlo
+  - MCMC
+  - Metropolis-Hastings
+  - Gibbs sampling
+  - Hamiltonian Monte Carlo
+  - HMC
+  - NUTS
+  - variational inference
+  - VI
+  - mean field approximation
+  - variational Bayes
+  - stochastic variational inference
+  - SVI
+  - sequential Monte Carlo
+  - particle filter
+  - importance sampling
+  - rejection sampling
+  
+  # Prior modeling
+  - prior elicitation
+  - prior specification
+  - hierarchical prior
+  - hyperprior
+  - objective prior
+  - subjective prior
+  - Jeffreys prior
+  - informative prior
+  - weakly informative prior
+  - vague prior
+  - non-informative prior
+  
+  # Model types
+  - hierarchical model
+  - multilevel model
+  - Bayesian hierarchical model
+  - Bayesian nonparametric
+  - Gaussian process
+  - GP
+  - Dirichlet process
+  - DP
+  - Chinese restaurant process
+  - CRP
+  - Indian buffet process
+  - IBP
+  - Pólya urn
+  - Beta-Binomial
+  - Dirichlet-Multinomial
+  
+  # Bayesian deep learning
+  - Bayesian neural network
+  - BNN
+  - variational autoencoder
+  - VAE
+  - Bayesian deep learning
+  - uncertainty quantification
+  - epistemic uncertainty
+  - aleatoric uncertainty
+  - heteroscedastic uncertainty
+  - dropweight
+  - dropout
+  - deep ensembles
+  - Monte Carlo dropout
+  - MC dropout
+  
+  # Model selection and averaging
+  - model selection
+  - model averaging
+  - Bayesian model averaging
+  - BMA
+  - model comparison
+  - hypothesis testing
+  - Bayesian hypothesis testing
+  - p-value
+  - Bayesian p-value
+  - posterior predictive p-value
+  
+  # Applications
+  - Bayesian optimization
+  - BO
+  - Gaussian process optimization
+  - acquisition function
+  - expected improvement
+  - EI
+  - probability of improvement
+  - POI
+  - upper confidence bound
+  - UCB
+  - Thompson sampling
+  - multi-armed bandit
+  - contextual bandit
+  
+  # Evaluation and diagnostics
+  - convergence diagnosis
+  - convergence diagnostic
+  - R-hat
+  - effective sample size
+  - ESS
+  - trace plot
+  - autocorrelation
+  - posterior predictive check
+  - PPC
+  - calibration
+  - coverage
+  - credible interval
+  - highest posterior density
+  - HPD
+  
+  # Software and frameworks
+  - Stan
+  - PyMC
+  - PyMC3
+  - PyMC4
+  - PyMC5
+  - TensorFlow Probability
+  - TFP
+  - Pyro
+  - NumPyro
+  - JAGS
+  - WinBUGS
+  - OpenBUGS
+  - brms
+  - rstanarm
+  - probabilistic programming
+  - PPL
+  
+  # Theory
+  - Bernardo-Smith
+  - coarse-to-fine
+  - concentration inequality
+  - consistent
+  - contraction rate
+  - Doob consistency
+  - identifiability
+  - posterior consistency
+  - posterior contraction
+  - sufficiency
+  - SMC
+  
+  # Research methodology
+  - survey
+  - review
   - literature review
   - systematic review
   - meta analysis
   - case study
-  - qualitative
-  - quantitative
-  - mixed methods
-  - experiment
-  - survey
-  - interview
-  - dataset
   - benchmark
+  - dataset
+  - experiment
+  - framework
   - reproducibility
   - research gap
-  - grounded theory
-  - triangulation
-  - framework
-  - taxonomy
-  - open access
-  - peer review

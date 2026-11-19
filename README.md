@@ -38,6 +38,7 @@
 | 🦊 **GitLab projects discovery** | `scripts/fetch/fetch_gitlab_repos.py` (optional, config-driven via `gitlab_queries` in taxonomy.yaml) |
 | 🏠 **Codeberg repos discovery** | `scripts/fetch/fetch_codeberg_repos.py` (optional, config-driven via `codeberg_queries` in taxonomy.yaml) |
 | 🖥️ **GitHub Pages site** | `docs/index.html` — searchable, filterable paper browser |
+| 🧠 **Knowledge graph** | `tools/extract_concepts.py` + `tools/relate_concepts.py` + `tools/analyze_concept_graph.py` → `concept_graph.json`, `concepts.json`, `docs/research/concept_map.md` |
 | 🤖 **Agentic workflow** | `AGENTS.md` + `config/taxonomy.yaml` make this repo agent-friendly by design |
 
 ## 🚀 Quick Start
@@ -54,6 +55,11 @@ python3 scripts/fetch/fetch_new_papers.py --local                 # append to pa
 python3 tools/trend_scanner.py --months 12
 python3 tools/landscape_analyzer.py
 python3 tools/topic_planner.py --top 10
+
+# Build knowledge graph
+python3 tools/extract_concepts.py --papers papers.yaml --out concepts.json
+python3 tools/relate_concepts.py --papers papers.yaml --concepts concepts.json --write-doc > concept_graph.json
+python3 tools/analyze_concept_graph.py --graph concept_graph.json --write-doc > concept_graph_analysis.json
 ```
 
 ## 📖 How it works
@@ -69,17 +75,63 @@ config/taxonomy.yaml ──► papers.yaml ──► validate_papers.py
                           │
                           ▼
               analysis/generate_reports.py ──► docs/research/*.md
+                          │
+                          ▼
+    extract_concepts.py ──► concepts.json
+                          │
+                          ▼
+    relate_concepts.py ──► concept_graph.json + docs/research/concept_map.md
+                          │
+                          ▼
+    analyze_concept_graph.py ──► concept_graph_analysis.json + docs/research/concept_graph_analysis.md
 ```
 
 - **Never edit README.md directly** — it is generated from `papers.yaml`.
 - The **taxonomy lives in one place** (`config/taxonomy.yaml`); every script reads it via `scripts/research_config.py`.
 - **CI (validate.yml)** runs on every push/PR and weekly to discover new papers.
 
+## 🧠 Knowledge Graph
+
+The corpus includes a **concept-level knowledge graph** that captures relationships between
+research concepts, categories, and papers. The graph is built in three stages:
+
+```
+1. Concept Extraction (tools/extract_concepts.py)
+   ├── Taxonomy categories (structural, from config/taxonomy.yaml)
+   ├── Curated concepts (from config/concepts.yaml)
+   └── Emergent bigrams (mined from paper titles + abstracts)
+   
+2. Concept Relation (tools/relate_concepts.py)
+   └── Co-occurrence edges weighted by shared paper count
+   
+3. Graph Analysis (tools/analyze_concept_graph.py)
+   ├── Degree / weighted degree centrality
+   ├── PageRank
+   ├── Betweenness (nodes + edges)
+   ├── Clustering coefficient
+   ├── Connected components
+   └── Label-propagation communities
+```
+
+**Outputs:**
+- `concepts.json` — ranked list of concepts with document frequencies
+- `concept_graph.json` — nodes + edges (D3-ready JSON)
+- `concept_graph_analysis.json` — network metrics and communities
+- `docs/research/concept_map.md` — human-readable concept relationships
+- `docs/research/concept_graph_analysis.md` — graph metrics report
+
+All outputs are deterministic and regenerated from `papers.yaml`.
+
 ## 🧪 Local pipeline (all in one)
 
 ```bash
 # Full pipeline (validate → README → stats → reports)
 python3 scripts/validate_papers.py && python3 scripts/generate_readme.py && python3 scripts/standard_stats.py && python3 scripts/analysis/generate_reports.py
+
+# Knowledge graph pipeline (extract → relate → analyze)
+python3 tools/extract_concepts.py --papers papers.yaml --out concepts.json && \
+python3 tools/relate_concepts.py --papers papers.yaml --concepts concepts.json --write-doc > concept_graph.json && \
+python3 tools/analyze_concept_graph.py --graph concept_graph.json --write-doc > concept_graph_analysis.json
 ```
 
 ## 🤖 Agentic workflow (AGENTS.md)
