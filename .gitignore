@@ -7,11 +7,4 @@ __pycache__/
 papers.json
 statistics.json
 docs/topics/
-
-# Concept graph (generated — never commit)
-concepts.json
-concept_graph.json
-docs/research/concept_map.md
-concept_graph_analysis.json
-docs/research/concept_graph_analysis.md
 verify-sources-report.json

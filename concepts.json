@@ -1,0 +1,2775 @@
+{
+  "count": 154,
+  "concepts": [
+    {
+      "term": "framework",
+      "kind": "curated",
+      "seed": true,
+      "df": 2179,
+      "match": {
+        "type": "text",
+        "forms": [
+          "framework"
+        ]
+      },
+      "papers": 2179,
+      "top_cells": [
+        "inference/method",
+        "computation/method",
+        "deep-bayesian/method",
+        "hierarchical/method"
+      ]
+    },
+    {
+      "term": "Inference & Posterior Estimation",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 1428,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "inference"
+      },
+      "top_cells": [
+        "inference/method",
+        "inference/theory",
+        "inference/application",
+        "inference/systems"
+      ],
+      "papers": 1428
+    },
+    {
+      "term": "Computational Methods",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 1354,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "computation"
+      },
+      "top_cells": [
+        "computation/method",
+        "computation/development",
+        "computation/theory",
+        "computation/systems"
+      ],
+      "papers": 1354
+    },
+    {
+      "term": "Bayesian inference",
+      "kind": "curated",
+      "seed": true,
+      "df": 1234,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian inference"
+        ]
+      },
+      "papers": 1234,
+      "top_cells": [
+        "inference/method",
+        "computation/method",
+        "inference/theory",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "Bayesian Deep Learning",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 996,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "deep-bayesian"
+      },
+      "top_cells": [
+        "deep-bayesian/method",
+        "deep-bayesian/theory",
+        "deep-bayesian/application",
+        "deep-bayesian/evaluation"
+      ],
+      "papers": 996
+    },
+    {
+      "term": "Markov chain Monte Carlo",
+      "kind": "curated",
+      "seed": true,
+      "df": 888,
+      "match": {
+        "type": "text",
+        "forms": [
+          "markov chain monte carlo"
+        ]
+      },
+      "papers": 888,
+      "top_cells": [
+        "computation/method",
+        "inference/method",
+        "computation/theory",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "likelihood",
+      "kind": "curated",
+      "seed": true,
+      "df": 705,
+      "match": {
+        "type": "text",
+        "forms": [
+          "likelihood"
+        ]
+      },
+      "papers": 705,
+      "top_cells": [
+        "inference/method",
+        "computation/method",
+        "inference/theory",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "uncertainty quantification",
+      "kind": "curated",
+      "seed": true,
+      "df": 655,
+      "match": {
+        "type": "text",
+        "forms": [
+          "uncertainty quantification"
+        ]
+      },
+      "papers": 655,
+      "top_cells": [
+        "deep-bayesian/method",
+        "inference/method",
+        "computation/method",
+        "deep-bayesian/theory"
+      ]
+    },
+    {
+      "term": "MCMC",
+      "kind": "curated",
+      "seed": true,
+      "df": 575,
+      "match": {
+        "type": "text",
+        "forms": [
+          "mcmc"
+        ]
+      },
+      "papers": 575,
+      "top_cells": [
+        "computation/method",
+        "inference/method",
+        "computation/theory",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "variational inference",
+      "kind": "curated",
+      "seed": true,
+      "df": 485,
+      "match": {
+        "type": "text",
+        "forms": [
+          "variational inference"
+        ]
+      },
+      "papers": 485,
+      "top_cells": [
+        "computation/method",
+        "computation/theory",
+        "inference/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "evidence",
+      "kind": "curated",
+      "seed": true,
+      "df": 471,
+      "match": {
+        "type": "text",
+        "forms": [
+          "evidence"
+        ]
+      },
+      "papers": 471,
+      "top_cells": [
+        "model-selection/method",
+        "inference/method",
+        "hierarchical/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "Bayesian optimization",
+      "kind": "curated",
+      "seed": true,
+      "df": 445,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian optimization"
+        ]
+      },
+      "papers": 445,
+      "top_cells": [
+        "applications/method",
+        "deep-bayesian/method",
+        "inference/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "dataset",
+      "kind": "curated",
+      "seed": true,
+      "df": 442,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dataset"
+        ]
+      },
+      "papers": 442,
+      "top_cells": [
+        "deep-bayesian/method",
+        "inference/method",
+        "computation/method",
+        "hierarchical/method"
+      ]
+    },
+    {
+      "term": "Hierarchical & Multilevel Models",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 437,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "hierarchical"
+      },
+      "top_cells": [
+        "hierarchical/method",
+        "hierarchical/theory",
+        "hierarchical/development",
+        "hierarchical/systems"
+      ],
+      "papers": 437
+    },
+    {
+      "term": "Model Selection & Averaging",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 435,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "model-selection"
+      },
+      "top_cells": [
+        "model-selection/method",
+        "model-selection/theory",
+        "model-selection/evaluation",
+        "model-selection/development"
+      ],
+      "papers": 435
+    },
+    {
+      "term": "Applications",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 402,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "applications"
+      },
+      "top_cells": [
+        "applications/method",
+        "applications/theory",
+        "applications/application",
+        "applications/survey"
+      ],
+      "papers": 402
+    },
+    {
+      "term": "posterior distribution",
+      "kind": "curated",
+      "seed": true,
+      "df": 387,
+      "match": {
+        "type": "text",
+        "forms": [
+          "posterior distribution"
+        ]
+      },
+      "papers": 387,
+      "top_cells": [
+        "inference/method",
+        "computation/method",
+        "inference/theory",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "consistent",
+      "kind": "curated",
+      "seed": true,
+      "df": 387,
+      "match": {
+        "type": "text",
+        "forms": [
+          "consistent"
+        ]
+      },
+      "papers": 387,
+      "top_cells": [
+        "computation/method",
+        "inference/method",
+        "model-selection/method",
+        "hierarchical/method"
+      ]
+    },
+    {
+      "term": "Gaussian process",
+      "kind": "curated",
+      "seed": true,
+      "df": 356,
+      "match": {
+        "type": "text",
+        "forms": [
+          "gaussian process"
+        ]
+      },
+      "papers": 356,
+      "top_cells": [
+        "nonparametric/method",
+        "applications/method",
+        "inference/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "calibration",
+      "kind": "curated",
+      "seed": true,
+      "df": 354,
+      "match": {
+        "type": "text",
+        "forms": [
+          "calibration"
+        ]
+      },
+      "papers": 354,
+      "top_cells": [
+        "inference/method",
+        "deep-bayesian/method",
+        "computation/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "benchmark",
+      "kind": "curated",
+      "seed": true,
+      "df": 329,
+      "match": {
+        "type": "text",
+        "forms": [
+          "benchmark"
+        ]
+      },
+      "papers": 329,
+      "top_cells": [
+        "computation/method",
+        "inference/method",
+        "deep-bayesian/method",
+        "applications/method"
+      ]
+    },
+    {
+      "term": "Bayesian Nonparametrics",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 325,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "nonparametric"
+      },
+      "top_cells": [
+        "nonparametric/method",
+        "nonparametric/theory",
+        "nonparametric/application"
+      ],
+      "papers": 325
+    },
+    {
+      "term": "Bayes factor",
+      "kind": "curated",
+      "seed": true,
+      "df": 246,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayes factor"
+        ]
+      },
+      "papers": 246,
+      "top_cells": [
+        "model-selection/method",
+        "model-selection/theory",
+        "inference/method",
+        "model-selection/development"
+      ]
+    },
+    {
+      "term": "sequential Monte Carlo",
+      "kind": "curated",
+      "seed": true,
+      "df": 238,
+      "match": {
+        "type": "text",
+        "forms": [
+          "sequential monte carlo"
+        ]
+      },
+      "papers": 238,
+      "top_cells": [
+        "computation/method",
+        "computation/development",
+        "inference/method",
+        "computation/theory"
+      ]
+    },
+    {
+      "term": "coverage",
+      "kind": "curated",
+      "seed": true,
+      "df": 229,
+      "match": {
+        "type": "text",
+        "forms": [
+          "coverage"
+        ]
+      },
+      "papers": 229,
+      "top_cells": [
+        "inference/method",
+        "deep-bayesian/method",
+        "inference/theory",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "model selection",
+      "kind": "curated",
+      "seed": true,
+      "df": 224,
+      "match": {
+        "type": "text",
+        "forms": [
+          "model selection"
+        ]
+      },
+      "papers": 224,
+      "top_cells": [
+        "model-selection/method",
+        "model-selection/theory",
+        "inference/method",
+        "inference/theory"
+      ]
+    },
+    {
+      "term": "Bayesian neural network",
+      "kind": "curated",
+      "seed": true,
+      "df": 205,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian neural network"
+        ]
+      },
+      "papers": 205,
+      "top_cells": [
+        "deep-bayesian/method",
+        "deep-bayesian/theory",
+        "computation/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "Bayesian nonparametric",
+      "kind": "curated",
+      "seed": true,
+      "df": 186,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian nonparametric"
+        ]
+      },
+      "papers": 186,
+      "top_cells": [
+        "nonparametric/method",
+        "inference/method",
+        "inference/theory",
+        "nonparametric/theory"
+      ]
+    },
+    {
+      "term": "survey",
+      "kind": "curated",
+      "seed": true,
+      "df": 157,
+      "match": {
+        "type": "text",
+        "forms": [
+          "survey"
+        ]
+      },
+      "papers": 157,
+      "top_cells": [
+        "hierarchical/method",
+        "inference/method",
+        "deep-bayesian/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "review",
+      "kind": "curated",
+      "seed": true,
+      "df": 146,
+      "match": {
+        "type": "text",
+        "forms": [
+          "review"
+        ]
+      },
+      "papers": 146,
+      "top_cells": [
+        "deep-bayesian/method",
+        "computation/method",
+        "hierarchical/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "BNN",
+      "kind": "curated",
+      "seed": true,
+      "df": 125,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bnn"
+        ]
+      },
+      "papers": 125,
+      "top_cells": [
+        "deep-bayesian/method",
+        "deep-bayesian/theory",
+        "inference/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "GP",
+      "kind": "curated",
+      "seed": true,
+      "df": 123,
+      "match": {
+        "type": "text",
+        "forms": [
+          "gp"
+        ]
+      },
+      "papers": 123,
+      "top_cells": [
+        "nonparametric/method",
+        "inference/method",
+        "applications/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "BO",
+      "kind": "curated",
+      "seed": true,
+      "df": 122,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bo"
+        ]
+      },
+      "papers": 122,
+      "top_cells": [
+        "applications/method",
+        "deep-bayesian/method",
+        "inference/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "Bayesian deep learning",
+      "kind": "curated",
+      "seed": true,
+      "df": 121,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian deep learning"
+        ]
+      },
+      "papers": 121,
+      "top_cells": [
+        "deep-bayesian/method",
+        "deep-bayesian/theory",
+        "computation/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "dropout",
+      "kind": "curated",
+      "seed": true,
+      "df": 112,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dropout"
+        ]
+      },
+      "papers": 112,
+      "top_cells": [
+        "deep-bayesian/method",
+        "deep-bayesian/theory",
+        "computation/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "case study",
+      "kind": "curated",
+      "seed": true,
+      "df": 112,
+      "match": {
+        "type": "text",
+        "forms": [
+          "case study"
+        ]
+      },
+      "papers": 112,
+      "top_cells": [
+        "inference/method",
+        "hierarchical/method",
+        "computation/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "experiment",
+      "kind": "curated",
+      "seed": true,
+      "df": 112,
+      "match": {
+        "type": "text",
+        "forms": [
+          "experiment"
+        ]
+      },
+      "papers": 112,
+      "top_cells": [
+        "inference/method",
+        "applications/method",
+        "deep-bayesian/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "epistemic uncertainty",
+      "kind": "curated",
+      "seed": true,
+      "df": 106,
+      "match": {
+        "type": "text",
+        "forms": [
+          "epistemic uncertainty"
+        ]
+      },
+      "papers": 106,
+      "top_cells": [
+        "deep-bayesian/method",
+        "inference/method",
+        "deep-bayesian/theory",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "Hamiltonian Monte Carlo",
+      "kind": "curated",
+      "seed": true,
+      "df": 102,
+      "match": {
+        "type": "text",
+        "forms": [
+          "hamiltonian monte carlo"
+        ]
+      },
+      "papers": 102,
+      "top_cells": [
+        "inference/method",
+        "computation/method",
+        "deep-bayesian/method",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "Dirichlet process",
+      "kind": "curated",
+      "seed": true,
+      "df": 102,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dirichlet process"
+        ]
+      },
+      "papers": 102,
+      "top_cells": [
+        "nonparametric/method",
+        "inference/theory",
+        "inference/method",
+        "nonparametric/theory"
+      ]
+    },
+    {
+      "term": "SMC",
+      "kind": "curated",
+      "seed": true,
+      "df": 102,
+      "match": {
+        "type": "text",
+        "forms": [
+          "smc"
+        ]
+      },
+      "papers": 102,
+      "top_cells": [
+        "computation/method",
+        "computation/development",
+        "model-selection/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "model comparison",
+      "kind": "curated",
+      "seed": true,
+      "df": 90,
+      "match": {
+        "type": "text",
+        "forms": [
+          "model comparison"
+        ]
+      },
+      "papers": 90,
+      "top_cells": [
+        "model-selection/method",
+        "inference/method",
+        "model-selection/theory",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "prior distribution",
+      "kind": "curated",
+      "seed": true,
+      "df": 89,
+      "match": {
+        "type": "text",
+        "forms": [
+          "prior distribution"
+        ]
+      },
+      "papers": 89,
+      "top_cells": [
+        "inference/method",
+        "inference/theory",
+        "deep-bayesian/method",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "posterior predictive",
+      "kind": "curated",
+      "seed": true,
+      "df": 88,
+      "match": {
+        "type": "text",
+        "forms": [
+          "posterior predictive"
+        ]
+      },
+      "papers": 88,
+      "top_cells": [
+        "inference/method",
+        "inference/theory",
+        "deep-bayesian/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "marginal likelihood",
+      "kind": "curated",
+      "seed": true,
+      "df": 79,
+      "match": {
+        "type": "text",
+        "forms": [
+          "marginal likelihood"
+        ]
+      },
+      "papers": 79,
+      "top_cells": [
+        "inference/method",
+        "computation/method",
+        "computation/development",
+        "model-selection/method"
+      ]
+    },
+    {
+      "term": "Metropolis-Hastings",
+      "kind": "curated",
+      "seed": true,
+      "df": 76,
+      "match": {
+        "type": "text",
+        "forms": [
+          "metropolis-hastings"
+        ]
+      },
+      "papers": 76,
+      "top_cells": [
+        "computation/method",
+        "inference/method",
+        "inference/theory",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "VI",
+      "kind": "curated",
+      "seed": true,
+      "df": 76,
+      "match": {
+        "type": "text",
+        "forms": [
+          "vi"
+        ]
+      },
+      "papers": 76,
+      "top_cells": [
+        "computation/method",
+        "computation/theory",
+        "deep-bayesian/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "Bayesian network",
+      "kind": "curated",
+      "seed": true,
+      "df": 70,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian network"
+        ]
+      },
+      "papers": 70,
+      "top_cells": [
+        "deep-bayesian/method",
+        "inference/method",
+        "inference/theory",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "identifiability",
+      "kind": "curated",
+      "seed": true,
+      "df": 70,
+      "match": {
+        "type": "text",
+        "forms": [
+          "identifiability"
+        ]
+      },
+      "papers": 70,
+      "top_cells": [
+        "inference/method",
+        "inference/theory",
+        "nonparametric/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "importance sampling",
+      "kind": "curated",
+      "seed": true,
+      "df": 67,
+      "match": {
+        "type": "text",
+        "forms": [
+          "importance sampling"
+        ]
+      },
+      "papers": 67,
+      "top_cells": [
+        "inference/method",
+        "computation/method",
+        "inference/theory",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "Monte Carlo dropout",
+      "kind": "curated",
+      "seed": true,
+      "df": 67,
+      "match": {
+        "type": "text",
+        "forms": [
+          "monte carlo dropout"
+        ]
+      },
+      "papers": 67,
+      "top_cells": [
+        "deep-bayesian/method",
+        "deep-bayesian/theory",
+        "computation/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "variational Bayes",
+      "kind": "curated",
+      "seed": true,
+      "df": 66,
+      "match": {
+        "type": "text",
+        "forms": [
+          "variational bayes"
+        ]
+      },
+      "papers": 66,
+      "top_cells": [
+        "computation/method",
+        "computation/theory",
+        "inference/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "model averaging",
+      "kind": "curated",
+      "seed": true,
+      "df": 65,
+      "match": {
+        "type": "text",
+        "forms": [
+          "model averaging"
+        ]
+      },
+      "papers": 65,
+      "top_cells": [
+        "inference/method",
+        "computation/development",
+        "model-selection/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "Gibbs sampling",
+      "kind": "curated",
+      "seed": true,
+      "df": 60,
+      "match": {
+        "type": "text",
+        "forms": [
+          "gibbs sampling"
+        ]
+      },
+      "papers": 60,
+      "top_cells": [
+        "inference/method",
+        "nonparametric/method",
+        "inference/theory",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "acquisition function",
+      "kind": "curated",
+      "seed": true,
+      "df": 60,
+      "match": {
+        "type": "text",
+        "forms": [
+          "acquisition function"
+        ]
+      },
+      "papers": 60,
+      "top_cells": [
+        "applications/method",
+        "inference/method",
+        "nonparametric/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "hierarchical model",
+      "kind": "curated",
+      "seed": true,
+      "df": 58,
+      "match": {
+        "type": "text",
+        "forms": [
+          "hierarchical model"
+        ]
+      },
+      "papers": 58,
+      "top_cells": [
+        "hierarchical/method",
+        "computation/method",
+        "inference/theory",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "probabilistic programming",
+      "kind": "curated",
+      "seed": true,
+      "df": 55,
+      "match": {
+        "type": "text",
+        "forms": [
+          "probabilistic programming"
+        ]
+      },
+      "papers": 55,
+      "top_cells": [
+        "computation/development",
+        "computation/method",
+        "inference/method",
+        "computation/theory"
+      ]
+    },
+    {
+      "term": "hypothesis testing",
+      "kind": "curated",
+      "seed": true,
+      "df": 51,
+      "match": {
+        "type": "text",
+        "forms": [
+          "hypothesis testing"
+        ]
+      },
+      "papers": 51,
+      "top_cells": [
+        "model-selection/method",
+        "model-selection/theory",
+        "inference/method",
+        "inference/theory"
+      ]
+    },
+    {
+      "term": "particle filter",
+      "kind": "curated",
+      "seed": true,
+      "df": 47,
+      "match": {
+        "type": "text",
+        "forms": [
+          "particle filter"
+        ]
+      },
+      "papers": 47,
+      "top_cells": [
+        "computation/method",
+        "computation/development",
+        "applications/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "Bayesian model averaging",
+      "kind": "curated",
+      "seed": true,
+      "df": 47,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian model averaging"
+        ]
+      },
+      "papers": 47,
+      "top_cells": [
+        "inference/method",
+        "computation/development",
+        "model-selection/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "posterior contraction",
+      "kind": "curated",
+      "seed": true,
+      "df": 47,
+      "match": {
+        "type": "text",
+        "forms": [
+          "posterior contraction"
+        ]
+      },
+      "papers": 47,
+      "top_cells": [
+        "inference/theory",
+        "nonparametric/method",
+        "inference/method",
+        "computation/theory"
+      ]
+    },
+    {
+      "term": "highest posterior density",
+      "kind": "curated",
+      "seed": true,
+      "df": 45,
+      "match": {
+        "type": "text",
+        "forms": [
+          "highest posterior density"
+        ]
+      },
+      "papers": 45,
+      "top_cells": [
+        "inference/theory",
+        "inference/method",
+        "computation/theory",
+        "applications/theory"
+      ]
+    },
+    {
+      "term": "deep ensembles",
+      "kind": "curated",
+      "seed": true,
+      "df": 44,
+      "match": {
+        "type": "text",
+        "forms": [
+          "deep ensembles"
+        ]
+      },
+      "papers": 44,
+      "top_cells": [
+        "deep-bayesian/method",
+        "deep-bayesian/theory",
+        "inference/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "Bayesian model comparison",
+      "kind": "curated",
+      "seed": true,
+      "df": 42,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian model comparison"
+        ]
+      },
+      "papers": 42,
+      "top_cells": [
+        "model-selection/method",
+        "model-selection/theory",
+        "inference/method",
+        "hierarchical/method"
+      ]
+    },
+    {
+      "term": "aleatoric uncertainty",
+      "kind": "curated",
+      "seed": true,
+      "df": 40,
+      "match": {
+        "type": "text",
+        "forms": [
+          "aleatoric uncertainty"
+        ]
+      },
+      "papers": 40,
+      "top_cells": [
+        "deep-bayesian/method",
+        "deep-bayesian/theory",
+        "inference/method",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "HMC",
+      "kind": "curated",
+      "seed": true,
+      "df": 38,
+      "match": {
+        "type": "text",
+        "forms": [
+          "hmc"
+        ]
+      },
+      "papers": 38,
+      "top_cells": [
+        "computation/method",
+        "computation/development",
+        "inference/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "reproducibility",
+      "kind": "curated",
+      "seed": true,
+      "df": 38,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reproducibility"
+        ]
+      },
+      "papers": 38,
+      "top_cells": [
+        "inference/method",
+        "computation/development",
+        "computation/method",
+        "applications/theory"
+      ]
+    },
+    {
+      "term": "prior specification",
+      "kind": "curated",
+      "seed": true,
+      "df": 37,
+      "match": {
+        "type": "text",
+        "forms": [
+          "prior specification"
+        ]
+      },
+      "papers": 37,
+      "top_cells": [
+        "priors/method",
+        "inference/theory",
+        "priors/theory",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "credible interval",
+      "kind": "curated",
+      "seed": true,
+      "df": 37,
+      "match": {
+        "type": "text",
+        "forms": [
+          "credible interval"
+        ]
+      },
+      "papers": 37,
+      "top_cells": [
+        "hierarchical/method",
+        "inference/theory",
+        "inference/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "effective sample size",
+      "kind": "curated",
+      "seed": true,
+      "df": 36,
+      "match": {
+        "type": "text",
+        "forms": [
+          "effective sample size"
+        ]
+      },
+      "papers": 36,
+      "top_cells": [
+        "computation/method",
+        "computation/development",
+        "model-selection/method",
+        "inference/theory"
+      ]
+    },
+    {
+      "term": "stochastic variational inference",
+      "kind": "curated",
+      "seed": true,
+      "df": 34,
+      "match": {
+        "type": "text",
+        "forms": [
+          "stochastic variational inference"
+        ]
+      },
+      "papers": 34,
+      "top_cells": [
+        "computation/method",
+        "computation/theory",
+        "inference/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "Stan",
+      "kind": "curated",
+      "seed": true,
+      "df": 34,
+      "match": {
+        "type": "text",
+        "forms": [
+          "stan"
+        ]
+      },
+      "papers": 34,
+      "top_cells": [
+        "computation/development",
+        "computation/method",
+        "inference/method",
+        "hierarchical/method"
+      ]
+    },
+    {
+      "term": "Thompson sampling",
+      "kind": "curated",
+      "seed": true,
+      "df": 33,
+      "match": {
+        "type": "text",
+        "forms": [
+          "thompson sampling"
+        ]
+      },
+      "papers": 33,
+      "top_cells": [
+        "inference/method",
+        "applications/method",
+        "deep-bayesian/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "Bayesian hierarchical model",
+      "kind": "curated",
+      "seed": true,
+      "df": 32,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian hierarchical model"
+        ]
+      },
+      "papers": 32,
+      "top_cells": [
+        "hierarchical/method",
+        "computation/method",
+        "inference/method",
+        "computation/theory"
+      ]
+    },
+    {
+      "term": "Prior Specification & Elicitation",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 31,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "priors"
+      },
+      "top_cells": [
+        "priors/method",
+        "priors/theory"
+      ],
+      "papers": 31
+    },
+    {
+      "term": "posterior consistency",
+      "kind": "curated",
+      "seed": true,
+      "df": 30,
+      "match": {
+        "type": "text",
+        "forms": [
+          "posterior consistency"
+        ]
+      },
+      "papers": 30,
+      "top_cells": [
+        "computation/development",
+        "inference/method",
+        "inference/theory",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "NUTS",
+      "kind": "curated",
+      "seed": true,
+      "df": 28,
+      "match": {
+        "type": "text",
+        "forms": [
+          "nuts"
+        ]
+      },
+      "papers": 28,
+      "top_cells": [
+        "computation/method",
+        "hierarchical/method",
+        "inference/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "variational autoencoder",
+      "kind": "curated",
+      "seed": true,
+      "df": 27,
+      "match": {
+        "type": "text",
+        "forms": [
+          "variational autoencoder"
+        ]
+      },
+      "papers": 27,
+      "top_cells": [
+        "computation/method",
+        "deep-bayesian/method",
+        "inference/method",
+        "computation/theory"
+      ]
+    },
+    {
+      "term": "autocorrelation",
+      "kind": "curated",
+      "seed": true,
+      "df": 27,
+      "match": {
+        "type": "text",
+        "forms": [
+          "autocorrelation"
+        ]
+      },
+      "papers": 27,
+      "top_cells": [
+        "computation/method",
+        "inference/method",
+        "applications/method",
+        "applications/theory"
+      ]
+    },
+    {
+      "term": "prior elicitation",
+      "kind": "curated",
+      "seed": true,
+      "df": 22,
+      "match": {
+        "type": "text",
+        "forms": [
+          "prior elicitation"
+        ]
+      },
+      "papers": 22,
+      "top_cells": [
+        "priors/method",
+        "priors/theory",
+        "inference/method",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "DP",
+      "kind": "curated",
+      "seed": true,
+      "df": 21,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dp"
+        ]
+      },
+      "papers": 21,
+      "top_cells": [
+        "nonparametric/method",
+        "inference/theory",
+        "nonparametric/theory",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "VAE",
+      "kind": "curated",
+      "seed": true,
+      "df": 20,
+      "match": {
+        "type": "text",
+        "forms": [
+          "vae"
+        ]
+      },
+      "papers": 20,
+      "top_cells": [
+        "computation/method",
+        "inference/method",
+        "computation/theory",
+        "applications/method"
+      ]
+    },
+    {
+      "term": "p-value",
+      "kind": "curated",
+      "seed": true,
+      "df": 18,
+      "match": {
+        "type": "text",
+        "forms": [
+          "p-value"
+        ]
+      },
+      "papers": 18,
+      "top_cells": [
+        "model-selection/method",
+        "model-selection/theory",
+        "inference/method",
+        "applications/theory"
+      ]
+    },
+    {
+      "term": "upper confidence bound",
+      "kind": "curated",
+      "seed": true,
+      "df": 18,
+      "match": {
+        "type": "text",
+        "forms": [
+          "upper confidence bound"
+        ]
+      },
+      "papers": 18,
+      "top_cells": [
+        "applications/method",
+        "inference/method",
+        "deep-bayesian/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "HPD",
+      "kind": "curated",
+      "seed": true,
+      "df": 18,
+      "match": {
+        "type": "text",
+        "forms": [
+          "hpd"
+        ]
+      },
+      "papers": 18,
+      "top_cells": [
+        "inference/theory",
+        "inference/method",
+        "model-selection/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "multilevel model",
+      "kind": "curated",
+      "seed": true,
+      "df": 17,
+      "match": {
+        "type": "text",
+        "forms": [
+          "multilevel model"
+        ]
+      },
+      "papers": 17,
+      "top_cells": [
+        "hierarchical/method",
+        "hierarchical/development",
+        "computation/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "BMA",
+      "kind": "curated",
+      "seed": true,
+      "df": 17,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bma"
+        ]
+      },
+      "papers": 17,
+      "top_cells": [
+        "computation/development",
+        "inference/method",
+        "deep-bayesian/theory",
+        "hierarchical/theory"
+      ]
+    },
+    {
+      "term": "contraction rate",
+      "kind": "curated",
+      "seed": true,
+      "df": 17,
+      "match": {
+        "type": "text",
+        "forms": [
+          "contraction rate"
+        ]
+      },
+      "papers": 17,
+      "top_cells": [
+        "inference/theory",
+        "nonparametric/method",
+        "inference/method",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "hierarchical prior",
+      "kind": "curated",
+      "seed": true,
+      "df": 16,
+      "match": {
+        "type": "text",
+        "forms": [
+          "hierarchical prior"
+        ]
+      },
+      "papers": 16,
+      "top_cells": [
+        "computation/development",
+        "inference/method",
+        "inference/theory",
+        "priors/method"
+      ]
+    },
+    {
+      "term": "expected improvement",
+      "kind": "curated",
+      "seed": true,
+      "df": 16,
+      "match": {
+        "type": "text",
+        "forms": [
+          "expected improvement"
+        ]
+      },
+      "papers": 16,
+      "top_cells": [
+        "applications/method",
+        "inference/method",
+        "deep-bayesian/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "systematic review",
+      "kind": "curated",
+      "seed": true,
+      "df": 16,
+      "match": {
+        "type": "text",
+        "forms": [
+          "systematic review"
+        ]
+      },
+      "papers": 16,
+      "top_cells": [
+        "hierarchical/method",
+        "applications/theory",
+        "deep-bayesian/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "informative prior",
+      "kind": "curated",
+      "seed": true,
+      "df": 15,
+      "match": {
+        "type": "text",
+        "forms": [
+          "informative prior"
+        ]
+      },
+      "papers": 15,
+      "top_cells": [
+        "computation/method",
+        "model-selection/method",
+        "applications/method",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "PyMC",
+      "kind": "curated",
+      "seed": true,
+      "df": 15,
+      "match": {
+        "type": "text",
+        "forms": [
+          "pymc"
+        ]
+      },
+      "papers": 15,
+      "top_cells": [
+        "computation/development",
+        "hierarchical/method",
+        "hierarchical/theory",
+        "priors/method"
+      ]
+    },
+    {
+      "term": "rejection sampling",
+      "kind": "curated",
+      "seed": true,
+      "df": 14,
+      "match": {
+        "type": "text",
+        "forms": [
+          "rejection sampling"
+        ]
+      },
+      "papers": 14,
+      "top_cells": [
+        "computation/method",
+        "inference/method",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "MC dropout",
+      "kind": "curated",
+      "seed": true,
+      "df": 14,
+      "match": {
+        "type": "text",
+        "forms": [
+          "mc dropout"
+        ]
+      },
+      "papers": 14,
+      "top_cells": [
+        "deep-bayesian/method",
+        "inference/method",
+        "computation/theory"
+      ]
+    },
+    {
+      "term": "conjugate prior",
+      "kind": "curated",
+      "seed": true,
+      "df": 12,
+      "match": {
+        "type": "text",
+        "forms": [
+          "conjugate prior"
+        ]
+      },
+      "papers": 12,
+      "top_cells": [
+        "inference/method",
+        "inference/theory",
+        "model-selection/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "SVI",
+      "kind": "curated",
+      "seed": true,
+      "df": 11,
+      "match": {
+        "type": "text",
+        "forms": [
+          "svi"
+        ]
+      },
+      "papers": 11,
+      "top_cells": [
+        "computation/method",
+        "computation/theory",
+        "nonparametric/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "Jeffreys prior",
+      "kind": "curated",
+      "seed": true,
+      "df": 11,
+      "match": {
+        "type": "text",
+        "forms": [
+          "jeffreys prior"
+        ]
+      },
+      "papers": 11,
+      "top_cells": [
+        "inference/method",
+        "inference/theory",
+        "computation/method",
+        "model-selection/method"
+      ]
+    },
+    {
+      "term": "Dirichlet-Multinomial",
+      "kind": "curated",
+      "seed": true,
+      "df": 11,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dirichlet-multinomial"
+        ]
+      },
+      "papers": 11,
+      "top_cells": [
+        "inference/theory",
+        "nonparametric/method",
+        "model-selection/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "Surveys & Tutorials",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 10,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "survey"
+      },
+      "top_cells": [
+        "survey/survey"
+      ],
+      "papers": 10
+    },
+    {
+      "term": "JAGS",
+      "kind": "curated",
+      "seed": true,
+      "df": 10,
+      "match": {
+        "type": "text",
+        "forms": [
+          "jags"
+        ]
+      },
+      "papers": 10,
+      "top_cells": [
+        "hierarchical/theory",
+        "hierarchical/method",
+        "computation/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "Bayesian hypothesis testing",
+      "kind": "curated",
+      "seed": true,
+      "df": 9,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian hypothesis testing"
+        ]
+      },
+      "papers": 9,
+      "top_cells": [
+        "model-selection/method",
+        "model-selection/theory",
+        "hierarchical/method",
+        "applications/method"
+      ]
+    },
+    {
+      "term": "UCB",
+      "kind": "curated",
+      "seed": true,
+      "df": 9,
+      "match": {
+        "type": "text",
+        "forms": [
+          "ucb"
+        ]
+      },
+      "papers": 9,
+      "top_cells": [
+        "applications/method",
+        "inference/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "brms",
+      "kind": "curated",
+      "seed": true,
+      "df": 9,
+      "match": {
+        "type": "text",
+        "forms": [
+          "brms"
+        ]
+      },
+      "papers": 9,
+      "top_cells": [
+        "computation/development",
+        "model-selection/method",
+        "hierarchical/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "EI",
+      "kind": "curated",
+      "seed": true,
+      "df": 8,
+      "match": {
+        "type": "text",
+        "forms": [
+          "ei"
+        ]
+      },
+      "papers": 8,
+      "top_cells": [
+        "deep-bayesian/method",
+        "inference/method",
+        "hierarchical/method",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "ESS",
+      "kind": "curated",
+      "seed": true,
+      "df": 8,
+      "match": {
+        "type": "text",
+        "forms": [
+          "ess"
+        ]
+      },
+      "papers": 8,
+      "top_cells": [
+        "computation/method",
+        "model-selection/method",
+        "computation/development",
+        "model-selection/theory"
+      ]
+    },
+    {
+      "term": "hyperprior",
+      "kind": "curated",
+      "seed": true,
+      "df": 6,
+      "match": {
+        "type": "text",
+        "forms": [
+          "hyperprior"
+        ]
+      },
+      "papers": 6,
+      "top_cells": [
+        "deep-bayesian/method",
+        "hierarchical/method",
+        "model-selection/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "Chinese restaurant process",
+      "kind": "curated",
+      "seed": true,
+      "df": 6,
+      "match": {
+        "type": "text",
+        "forms": [
+          "chinese restaurant process"
+        ]
+      },
+      "papers": 6,
+      "top_cells": [
+        "inference/theory",
+        "nonparametric/method",
+        "inference/method",
+        "hierarchical/method"
+      ]
+    },
+    {
+      "term": "Bayes theorem",
+      "kind": "curated",
+      "seed": true,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayes theorem"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "computation/method",
+        "inference/theory",
+        "model-selection/method",
+        "applications/theory"
+      ]
+    },
+    {
+      "term": "non-informative prior",
+      "kind": "curated",
+      "seed": true,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "non-informative prior"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "inference/method",
+        "inference/theory",
+        "applications/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "Beta-Binomial",
+      "kind": "curated",
+      "seed": true,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "beta-binomial"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "hierarchical/method",
+        "inference/method",
+        "model-selection/method",
+        "inference/theory"
+      ]
+    },
+    {
+      "term": "R-hat",
+      "kind": "curated",
+      "seed": true,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "r-hat"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "computation/development",
+        "computation/method",
+        "model-selection/method",
+        "computation/theory"
+      ]
+    },
+    {
+      "term": "Pyro",
+      "kind": "curated",
+      "seed": true,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "pyro"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "computation/method",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "NumPyro",
+      "kind": "curated",
+      "seed": true,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "numpyro"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "computation/development",
+        "model-selection/method",
+        "applications/theory",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "coarse-to-fine",
+      "kind": "curated",
+      "seed": true,
+      "df": 4,
+      "match": {
+        "type": "text",
+        "forms": [
+          "coarse-to-fine"
+        ]
+      },
+      "papers": 4,
+      "top_cells": [
+        "hierarchical/method",
+        "inference/method",
+        "applications/method",
+        "computation/method"
+      ]
+    },
+    {
+      "term": "literature review",
+      "kind": "curated",
+      "seed": true,
+      "df": 4,
+      "match": {
+        "type": "text",
+        "forms": [
+          "literature review"
+        ]
+      },
+      "papers": 4,
+      "top_cells": [
+        "computation/method",
+        "survey/survey",
+        "hierarchical/theory",
+        "priors/theory"
+      ]
+    },
+    {
+      "term": "research gap",
+      "kind": "curated",
+      "seed": true,
+      "df": 4,
+      "match": {
+        "type": "text",
+        "forms": [
+          "research gap"
+        ]
+      },
+      "papers": 4,
+      "top_cells": [
+        "deep-bayesian/theory",
+        "deep-bayesian/method",
+        "applications/method"
+      ]
+    },
+    {
+      "term": "Indian buffet process",
+      "kind": "curated",
+      "seed": true,
+      "df": 3,
+      "match": {
+        "type": "text",
+        "forms": [
+          "indian buffet process"
+        ]
+      },
+      "papers": 3,
+      "top_cells": [
+        "computation/development",
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "convergence diagnostic",
+      "kind": "curated",
+      "seed": true,
+      "df": 3,
+      "match": {
+        "type": "text",
+        "forms": [
+          "convergence diagnostic"
+        ]
+      },
+      "papers": 3,
+      "top_cells": [
+        "applications/theory",
+        "model-selection/theory",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "PPC",
+      "kind": "curated",
+      "seed": true,
+      "df": 3,
+      "match": {
+        "type": "text",
+        "forms": [
+          "ppc"
+        ]
+      },
+      "papers": 3,
+      "top_cells": [
+        "inference/method",
+        "computation/theory"
+      ]
+    },
+    {
+      "term": "PPL",
+      "kind": "curated",
+      "seed": true,
+      "df": 3,
+      "match": {
+        "type": "text",
+        "forms": [
+          "ppl"
+        ]
+      },
+      "papers": 3,
+      "top_cells": [
+        "computation/method",
+        "computation/development",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "weakly informative prior",
+      "kind": "curated",
+      "seed": true,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "weakly informative prior"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "priors/method",
+        "computation/theory"
+      ]
+    },
+    {
+      "term": "CRP",
+      "kind": "curated",
+      "seed": true,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "crp"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "nonparametric/method",
+        "model-selection/theory"
+      ]
+    },
+    {
+      "term": "POI",
+      "kind": "curated",
+      "seed": true,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "poi"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "applications/method",
+        "priors/method"
+      ]
+    },
+    {
+      "term": "multi-armed bandit",
+      "kind": "curated",
+      "seed": true,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "multi-armed bandit"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "nonparametric/method",
+        "inference/method"
+      ]
+    },
+    {
+      "term": "contextual bandit",
+      "kind": "curated",
+      "seed": true,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "contextual bandit"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "inference/method"
+      ]
+    },
+    {
+      "term": "convergence diagnosis",
+      "kind": "curated",
+      "seed": true,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "convergence diagnosis"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "inference/theory",
+        "deep-bayesian/method"
+      ]
+    },
+    {
+      "term": "rstanarm",
+      "kind": "curated",
+      "seed": true,
+      "df": 2,
+      "match": {
+        "type": "text",
+        "forms": [
+          "rstanarm"
+        ]
+      },
+      "papers": 2,
+      "top_cells": [
+        "computation/method",
+        "computation/development"
+      ]
+    },
+    {
+      "term": "mean field approximation",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "mean field approximation"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "inference/theory"
+      ]
+    },
+    {
+      "term": "subjective prior",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "subjective prior"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "inference/theory"
+      ]
+    },
+    {
+      "term": "probability of improvement",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "probability of improvement"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "applications/method"
+      ]
+    },
+    {
+      "term": "posterior predictive check",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "posterior predictive check"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "inference/method"
+      ]
+    },
+    {
+      "term": "TensorFlow Probability",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "tensorflow probability"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "computation/development"
+      ]
+    },
+    {
+      "term": "WinBUGS",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "winbugs"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "computation/development"
+      ]
+    },
+    {
+      "term": "concentration inequality",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "concentration inequality"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "nonparametric/method"
+      ]
+    },
+    {
+      "term": "sufficiency",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "sufficiency"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "computation/method"
+      ]
+    },
+    {
+      "term": "objective prior",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "objective prior"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "vague prior",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "vague prior"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "IBP",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "ibp"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "Pólya urn",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "pólya urn"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "heteroscedastic uncertainty",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "heteroscedastic uncertainty"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "dropweight",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dropweight"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "Bayesian p-value",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bayesian p-value"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "posterior predictive p-value",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "posterior predictive p-value"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "Gaussian process optimization",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "gaussian process optimization"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "trace plot",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "trace plot"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "PyMC3",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "pymc3"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "PyMC4",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "pymc4"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "PyMC5",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "pymc5"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "TFP",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "tfp"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "OpenBUGS",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "openbugs"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "Bernardo-Smith",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "bernardo-smith"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "Doob consistency",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "doob consistency"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "meta analysis",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "meta analysis"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    }
+  ]
+}
